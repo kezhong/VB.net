@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BusinessTier
+</name>
+</assembly>
+<members>
+<member name="M:BusinessTier.clsService.calcAMount">
+	<summary>
+ overridable allows for the method to be
+ re-implemented in the derived class
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BusinessTier.clsService.averageContract">
+	<summary>
+ Divide the accumulated service contract amount by the accumulated
+ number of service contracts and return the result to the calling routine
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

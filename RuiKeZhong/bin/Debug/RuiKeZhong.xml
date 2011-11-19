@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+RuiKeZhong
+</name>
+</assembly>
+<members>
+<member name="P:RuiKeZhong.frmEstimateTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.radStandard_CheckChangedTest">
+	<summary>
+A test for radAll_CheckChanged
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.radPearlized_CheckChangedTest">
+	<summary>
+A test for radAll_CheckChanged
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.radCustomizedDetailing_CheckChangedTest">
+	<summary>
+A test for radAll_CheckChanged
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.chkAll1_CheckedChangedTest">
+	<summary>
+A test for chkAll_CheckedChanged
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.chkAll2_CheckedChangedTest">
+	<summary>
+A test for chkAll_CheckedChanged
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.chkAll3_CheckedChangedTest">
+	<summary>
+A test for chkAll_CheckedChanged
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.chkAll4_CheckedChangedTest">
+	<summary>
+A test for chkAll_CheckedChanged
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.chkAll5_CheckedChangedTest">
+	<summary>
+A test for chkAll_CheckedChanged
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.chkAll6_CheckedChangedTest">
+	<summary>
+A test for chkAll_CheckedChanged
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.chkAll7_CheckedChangedTest">
+	<summary>
+A test for chkAll_CheckedChanged
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.btnClear_ClickTest">
+	<summary>
+A test for btnClear_Click
+ to ensure that data areas are cleared
+</summary>
+</member><member name="T:RuiKeZhong.frmEstimateTest">
+	<summary>
+This is a test class for frmEstimateTest and is intended
+to contain all frmEstimateTest Unit Tests
+</summary>
+</member>
+</members>
+</doc>

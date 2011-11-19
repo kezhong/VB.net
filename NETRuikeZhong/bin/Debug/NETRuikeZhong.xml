@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NETRuikeZhong
+</name>
+</assembly>
+<members>
+<member name="M:NETRuikeZhong.frmEstimate.chkAll_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ CheckBoxes control
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmEstimate.btnCalculate_Click(System.Object,System.EventArgs)">
+	<summary>
+ Calculations 
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmEstimate.btnClear_Click(System.Object,System.EventArgs)">
+	<summary>
+ Clear everything
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

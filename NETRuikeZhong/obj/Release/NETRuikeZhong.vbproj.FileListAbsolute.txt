@@ -1,0 +1,39 @@
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\bin\Release\NETRuikeZhong.exe
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\bin\Release\NETRuikeZhong.pdb
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\bin\Release\NETRuikeZhong.xml
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\obj\Release\ResolveAssemblyReference.cache
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.frmEstimate.resources
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.Resources.resources
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.vbproj.GenerateResource.Cache
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.exe
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.xml
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.exe
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Release\NETRuikeZhong.exe
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Release\NETRuikeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Release\NETRuikeZhong.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Release\ResolveAssemblyReference.cache
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.frmEstimate.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.Resources.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.vbproj.GenerateResource.Cache
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\NETRuikeZhong\obj\Release\NETRuikeZhong.exe
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\NETRuikeZhong\obj\Release\NETRuikeZhong.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\NETRuikeZhong\obj\Release\NETRuikeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\NETRuikeZhong\bin\Release\NETRuikeZhong.exe
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\NETRuikeZhong\bin\Release\NETRuikeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\NETRuikeZhong\bin\Release\NETRuikeZhong.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\NETRuikeZhong\obj\Release\ResolveAssemblyReference.cache
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\NETRuikeZhong\obj\Release\NETRuikeZhong.frmEstimate.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\NETRuikeZhong\obj\Release\NETRuikeZhong.Resources.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\NETRuikeZhong\obj\Release\NETRuikeZhong.vbproj.GenerateResource.Cache
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.frmFrame.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Release\BusinessTier.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Release\BusinessTier.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Release\BusinessTier.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.frmBase.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.frmService.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.frmSummary.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.frmAbout.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Release\NETRuikeZhong.frmCarWash.resources

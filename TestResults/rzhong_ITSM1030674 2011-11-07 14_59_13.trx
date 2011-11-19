@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5f779de9-e57c-43db-bacb-12ad89ef3556" name="rzhong@ITSM1030674 2011-11-07 14:59:13" runUser="ACADEMIC\rzhong" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="c42c55b2-03a0-4cde-a9da-4bdc707620e0">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\rzhong\Desktop\NETRuikeZhong\TestResults\rzhong_ITSM1030674 2011-11-07 14_59_13">
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\bin\Release\BusinessTier.dll" />
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Release\NETRuikeZhong.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-11-07T14:59:13.4106486-06:00" queuing="2011-11-07T14:59:13.9376787-06:00" start="2011-11-07T14:59:13.9556798-06:00" finish="2011-11-07T14:59:14.3537025-06:00" />
+  <TestDefinitions>
+    <UnitTest name="readFilesTest4" storage="c:\users\rzhong\desktop\netruikezhong\ruikezhong\bin\release\ruikezhong.dll" id="8713296a-a4c7-f1f7-e8c6-967ba0060265">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="780c1714-e8d1-4c51-ac65-122e0b310ca3" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmCarWashTest, RuiKeZhong" name="readFilesTest4" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8713296a-a4c7-f1f7-e8c6-967ba0060265" executionId="780c1714-e8d1-4c51-ac65-122e0b310ca3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="780c1714-e8d1-4c51-ac65-122e0b310ca3" testId="8713296a-a4c7-f1f7-e8c6-967ba0060265" testName="readFilesTest4" computerName="ITSM1030674" duration="00:00:00.0903949" startTime="2011-11-07T14:59:13.9576799-06:00" endTime="2011-11-07T14:59:14.3447020-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,43 @@
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\RuiKeZhong\bin\Release\RuiKeZhong.dll
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\RuiKeZhong\bin\Release\RuiKeZhong.pdb
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\RuiKeZhong\bin\Release\RuiKeZhong.xml
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\RuiKeZhong\bin\Release\NETRuikeZhong.exe
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\RuiKeZhong\bin\Release\NETRuikeZhong.pdb
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\RuiKeZhong\bin\Release\NETRuikeZhong.xml
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\RuiKeZhong\bin\Release\NETRuikeZhong_Accessor.dll
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\RuiKeZhong\bin\Release\NETRuikeZhong_Accessor.pdb
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\RuiKeZhong\obj\Release\ResolveAssemblyReference.cache
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\RuiKeZhong\obj\Release\RuiKeZhong.dll
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\RuiKeZhong\obj\Release\RuiKeZhong.xml
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\RuiKeZhong\obj\Release\RuiKeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\RuiKeZhong.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\RuiKeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\RuiKeZhong.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\NETRuikeZhong.exe
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\NETRuikeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\NETRuikeZhong.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\NETRuikeZhong_Accessor.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\NETRuikeZhong_Accessor.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Release\ResolveAssemblyReference.cache
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Release\RuiKeZhong.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Release\RuiKeZhong.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Release\RuiKeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\RuiKeZhong\bin\Release\RuiKeZhong.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\RuiKeZhong\bin\Release\RuiKeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\RuiKeZhong\bin\Release\RuiKeZhong.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\RuiKeZhong\bin\Release\NETRuikeZhong.exe
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\RuiKeZhong\bin\Release\NETRuikeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\RuiKeZhong\bin\Release\NETRuikeZhong.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\RuiKeZhong\bin\Release\NETRuikeZhong_Accessor.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\RuiKeZhong\bin\Release\NETRuikeZhong_Accessor.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\RuiKeZhong\obj\Release\ResolveAssemblyReference.cache
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\RuiKeZhong\obj\Release\RuiKeZhong.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\RuiKeZhong\obj\Release\RuiKeZhong.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong - Copy\RuiKeZhong\obj\Release\RuiKeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\BusinessTier.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\BusinessTier.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\BusinessTier.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\BusinessTier_Accessor.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\BusinessTier_Accessor.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Release\RuiKeZhong.Resources.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Release\RuiKeZhong.vbproj.GenerateResource.Cache

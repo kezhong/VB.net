@@ -1,0 +1,9 @@
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\bin\Release\BusinessTier.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\bin\Release\BusinessTier.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\bin\Release\BusinessTier.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\obj\Release\ResolveAssemblyReference.cache
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\obj\Release\BusinessTier.Resources.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\obj\Release\BusinessTier.vbproj.GenerateResource.Cache
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\obj\Release\BusinessTier.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\obj\Release\BusinessTier.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\obj\Release\BusinessTier.pdb

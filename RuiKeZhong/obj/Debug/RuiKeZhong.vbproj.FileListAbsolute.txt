@@ -1,0 +1,12 @@
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\NETRuikeZhong.exe
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\NETRuikeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\NETRuikeZhong.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\NETRuikeZhong_Accessor.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\NETRuikeZhong_Accessor.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Debug\RuiKeZhong.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Debug\RuiKeZhong.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Debug\RuiKeZhong.pdb

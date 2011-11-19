@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2338c926-edca-4a0e-80e0-d5930adc94a0" name="rzhong@ITSM1030674 2011-11-07 14:14:17" runUser="ACADEMIC\rzhong" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="c42c55b2-03a0-4cde-a9da-4bdc707620e0">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\rzhong\Desktop\NETRuikeZhong\TestResults\rzhong_ITSM1030674 2011-11-07 14_14_17">
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\bin\Release\BusinessTier.dll" />
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Release\NETRuikeZhong.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-11-07T14:14:17.4184467-06:00" queuing="2011-11-07T14:14:18.0484827-06:00" start="2011-11-07T14:14:18.0684838-06:00" finish="2011-11-07T14:14:18.4735070-06:00" />
+  <TestDefinitions>
+    <UnitTest name="readFilesTest2" storage="c:\users\rzhong\desktop\netruikezhong\ruikezhong\bin\release\ruikezhong.dll" id="1d839eca-a7b2-c9a3-97ea-9766de28e797">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="6c5f008a-1508-4929-84fa-b5fae79dccec" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmCarWashTest, RuiKeZhong" name="readFilesTest2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1d839eca-a7b2-c9a3-97ea-9766de28e797" executionId="6c5f008a-1508-4929-84fa-b5fae79dccec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6c5f008a-1508-4929-84fa-b5fae79dccec" testId="1d839eca-a7b2-c9a3-97ea-9766de28e797" testName="readFilesTest2" computerName="ITSM1030674" duration="00:00:00.0916165" startTime="2011-11-07T14:14:18.0694839-06:00" endTime="2011-11-07T14:14:18.4635064-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RuiKeZhong.frmCarWashTest.readFilesTest2 threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at RuiKeZhong.frmCarWashTest.readFilesTest2() in C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\frmCarWashTest.vb:line 83
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,20 @@
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\bin\Debug\NETRuikeZhong.exe
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\bin\Debug\NETRuikeZhong.pdb
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\bin\Debug\NETRuikeZhong.xml
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.frmEstimate.resources
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.Resources.resources
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.vbproj.GenerateResource.Cache
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.exe
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.xml
+D:\Users\rzhong\Documents\Visual Studio 2008\Projects\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.exe
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Debug\NETRuikeZhong.exe
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Debug\NETRuikeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Debug\NETRuikeZhong.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.frmEstimate.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.Resources.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.vbproj.GenerateResource.Cache
