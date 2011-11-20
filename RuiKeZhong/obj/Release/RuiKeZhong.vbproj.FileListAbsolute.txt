@@ -41,3 +41,8 @@ C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\BusinessTier_Access
 C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\BusinessTier_Accessor.pdb
 C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Release\RuiKeZhong.Resources.resources
 C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Release\RuiKeZhong.vbproj.GenerateResource.Cache
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\DataTier.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\DataTier.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\DataTier.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\DataTier_Accessor.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\DataTier_Accessor.pdb

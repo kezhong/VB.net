@@ -59,6 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsChargesTest.vb" />
+    <Compile Include="clsCommissionTest.vb" />
+    <Compile Include="clsDataTest.vb" />
     <Compile Include="clsServiceTest.vb" />
     <Compile Include="frmCarWashTest.vb" />
     <Compile Include="frmEstimateTest.vb" />
@@ -79,11 +81,16 @@
     <None Include="Resources\FragPrices.txt" />
     <None Include="Resources\FragDesc.txt" />
     <None Include="Resources\Exterior.txt" />
+    <Shadow Include="Test References\DataTier.accessor" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessTier\BusinessTier.vbproj">
       <Project>{C28FCB59-86FE-421D-8453-2143726F21F6}</Project>
       <Name>BusinessTier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataTier\DataTier.vbproj">
+      <Project>{1C47E3D0-903F-4089-823A-1396CF54A60C}</Project>
+      <Name>DataTier</Name>
     </ProjectReference>
     <ProjectReference Include="..\NETRuikeZhong\NETRuikeZhong.vbproj">
       <Project>{C51E0BC7-52A1-45BA-B310-142D40FF3E30}</Project>

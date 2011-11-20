@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="68e2aa44-e29d-487c-931b-a3652e9a3fe9" name="rzhong@ITSM1030674 2011-11-19 22:24:22" runUser="ACADEMIC\rzhong" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="c42c55b2-03a0-4cde-a9da-4bdc707620e0">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\rzhong\Desktop\NETRuikeZhong\TestResults\rzhong_ITSM1030674 2011-11-19 22_24_22">
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\bin\Release\BusinessTier.dll" />
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Release\NETRuikeZhong.exe" />
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\bin\Release\DataTier.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-11-19T22:24:22.5426341-06:00" queuing="2011-11-19T22:24:23.7747046-06:00" start="2011-11-19T22:24:23.9437143-06:00" finish="2011-11-19T22:24:24.4857453-06:00" />
+  <TestDefinitions>
+    <UnitTest name="connectTest" storage="c:\users\rzhong\desktop\netruikezhong\ruikezhong\bin\release\ruikezhong.dll" id="39c46d6d-5960-ba44-9515-70fc26346f95">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="76d53c3b-8a83-4b36-92c0-201fed21f636" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Release\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsDataTest, RuiKeZhong" name="connectTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="39c46d6d-5960-ba44-9515-70fc26346f95" executionId="76d53c3b-8a83-4b36-92c0-201fed21f636" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="76d53c3b-8a83-4b36-92c0-201fed21f636" testId="39c46d6d-5960-ba44-9515-70fc26346f95" testName="connectTest" computerName="ITSM1030674" duration="00:00:00.0648364" startTime="2011-11-19T22:24:23.9887168-06:00" endTime="2011-11-19T22:24:24.4177414-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

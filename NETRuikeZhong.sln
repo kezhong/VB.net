@@ -14,6 +14,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RuiKeZhong", "RuiKeZhong\Ru
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusinessTier", "BusinessTier\BusinessTier.vbproj", "{C28FCB59-86FE-421D-8453-2143726F21F6}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataTier", "DataTier\DataTier.vbproj", "{1C47E3D0-903F-4089-823A-1396CF54A60C}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = NETRuikeZhong1.vsmdi
@@ -57,8 +59,21 @@ Global
 		{C28FCB59-86FE-421D-8453-2143726F21F6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{C28FCB59-86FE-421D-8453-2143726F21F6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{C28FCB59-86FE-421D-8453-2143726F21F6}.Release|Win32.ActiveCfg = Release|Any CPU
+		{1C47E3D0-903F-4089-823A-1396CF54A60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C47E3D0-903F-4089-823A-1396CF54A60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C47E3D0-903F-4089-823A-1396CF54A60C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1C47E3D0-903F-4089-823A-1396CF54A60C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1C47E3D0-903F-4089-823A-1396CF54A60C}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{1C47E3D0-903F-4089-823A-1396CF54A60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C47E3D0-903F-4089-823A-1396CF54A60C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C47E3D0-903F-4089-823A-1396CF54A60C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1C47E3D0-903F-4089-823A-1396CF54A60C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1C47E3D0-903F-4089-823A-1396CF54A60C}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C47E3D0-903F-4089-823A-1396CF54A60C} = {B24889A3-553B-4067-A5DB-CF7681E3F3F2}
 	EndGlobalSection
 EndGlobal

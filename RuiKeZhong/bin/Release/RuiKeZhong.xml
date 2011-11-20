@@ -6,7 +6,36 @@ RuiKeZhong
 </name>
 </assembly>
 <members>
-<member name="P:RuiKeZhong.frmCarWashTest.TestContext">
+<member name="F:RuiKeZhong.clsDataTest.target">
+	<summary>
+ Module level variables
+ </summary>
+	<remarks></remarks>
+</member><member name="M:RuiKeZhong.clsDataTest.copyDB">
+	<summary>
+ Create a backup of the database
+ </summary>
+	<remarks></remarks>
+</member><member name="M:RuiKeZhong.clsDataTest.restoreDB">
+	<summary>
+ Restore the database from the backup 
+ </summary>
+	<remarks></remarks>
+</member><member name="P:RuiKeZhong.clsDataTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:RuiKeZhong.clsDataTest.connectTest">
+	<summary>
+A test for connect
+</summary>
+</member><member name="T:RuiKeZhong.clsDataTest">
+	<summary>
+This is a test class for clsDataTest and is intended
+to contain all clsDataTest Unit Tests
+</summary>
+</member><member name="P:RuiKeZhong.frmCarWashTest.TestContext">
 	<summary>
 Gets or sets the test context which provides
 information about and functionality for the current test run.
@@ -82,6 +111,32 @@ A test for txtBoxes_Leave
 	<summary>
 This is a test class for frmServiceTest and is intended
 to contain all frmServiceTest Unit Tests
+</summary>
+</member><member name="P:RuiKeZhong.clsCommissionTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:RuiKeZhong.clsCommissionTest.CostPriceTest">
+	<summary>
+A test for CostPrice
+</summary>
+</member><member name="M:RuiKeZhong.clsCommissionTest.RetailPriceTest">
+	<summary>
+A test for RetailPrice
+</summary>
+</member><member name="M:RuiKeZhong.clsCommissionTest.clsCommissionConstructorTest">
+	<summary>
+A test for clsCommission Constructor
+</summary>
+</member><member name="M:RuiKeZhong.clsCommissionTest.calCommissionTest">
+	<summary>
+A test for calCommission
+</summary>
+</member><member name="T:RuiKeZhong.clsCommissionTest">
+	<summary>
+This is a test class for clsCommissionTest and is intended
+to contain all clsCommissionTest Unit Tests
 </summary>
 </member><member name="P:RuiKeZhong.frmSummaryTest.TestContext">
 	<summary>

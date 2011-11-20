@@ -1,0 +1,9 @@
+C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\bin\Release\DataTier.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\bin\Release\DataTier.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\bin\Release\DataTier.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\obj\Release\ResolveAssemblyReference.cache
+C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\obj\Release\DataTier.Resources.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\obj\Release\DataTier.vbproj.GenerateResource.Cache
+C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\obj\Release\DataTier.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\obj\Release\DataTier.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\obj\Release\DataTier.pdb

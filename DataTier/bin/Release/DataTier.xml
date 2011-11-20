@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DataTier
+</name>
+</assembly>
+<members>
+<member name="M:DataTier.clsData.connect">
+	<summary>
+ Connect to database
+ </summary>
+	<remarks></remarks>
+</member><member name="M:DataTier.clsData.connect(System.String)">
+	<summary>
+ for use with unit testing
+ </summary>
+	<param name="strPathFile"></param>
+	<remarks></remarks>
+</member><member name="T:DataTier.clsData">
+	<summary>
+ clsData will contain functionality that will interact
+ directly with the database
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

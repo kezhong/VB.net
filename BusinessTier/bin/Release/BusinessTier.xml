@@ -6,7 +6,12 @@ BusinessTier
 </name>
 </assembly>
 <members>
-<member name="M:BusinessTier.clsService.calcAMount">
+<member name="T:BusinessTier.clsCommission">
+	<summary>
+ Used to calculate a saleperson's commission
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BusinessTier.clsService.calcAMount">
 	<summary>
  overridable allows for the method to be
  re-implemented in the derived class
