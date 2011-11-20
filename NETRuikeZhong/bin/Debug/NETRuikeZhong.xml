@@ -13,19 +13,214 @@ NETRuikeZhong
 	<param name="sender"></param>
 	<param name="e"></param>
 	<remarks></remarks>
-</member><member name="M:NETRuikeZhong.frmEstimate.btnCalculate_Click(System.Object,System.EventArgs)">
+</member><member name="M:NETRuikeZhong.frmEstimate.ctxCalculate_Click(System.Object,System.EventArgs)">
 	<summary>
  Calculations 
  </summary>
 	<param name="sender"></param>
 	<param name="e"></param>
 	<remarks></remarks>
-</member><member name="M:NETRuikeZhong.frmEstimate.btnClear_Click(System.Object,System.EventArgs)">
+</member><member name="M:NETRuikeZhong.frmEstimate.ctxClear_Click(System.Object,System.EventArgs)">
 	<summary>
  Clear everything
  </summary>
 	<param name="sender"></param>
 	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmEstimate.quote(System.Boolean)">
+	<summary>
+ Enable/disable the Accept Quote context menu item based on 
+ the value of the passed parameter
+ </summary>
+	<param name="acceptOrNo"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmEstimate.clear(System.Boolean)">
+	<summary>
+Enable/disable the Clear and Calculate context menu item
+  based on the value of passed parameter
+ </summary>
+	<param name="clearOrNo"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmEstimate.calculate">
+	<summary>
+ Determine the monthly payment suing the built-in function "PMT"
+ Display the payment in a label under the heading Monthly Payment
+ </summary>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmEstimate.enableFinance(System.Boolean)">
+	<summary>
+ Determine whether any finance calculation in this session
+ if not
+ set the value of the Years scrollbar to 3 and the corresponding label displays a value of 3
+ set the value of the Interest Rate scrollbar to be equivalent to 5.00%
+ and
+ </summary>
+	<param name="finace"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmEstimate.ctxAcceptQuote_Click(System.Object,System.EventArgs)">
+	<summary>
+ Accept quote menu click. Accumulate the amount due and number of quotes
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmEstimate.ctxSummary_Click(System.Object,System.EventArgs)">
+	<summary>
+ Show summary in message box
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmService.txtBoxes_Leave(System.Object,System.EventArgs)">
+	<summary>
+ Checking the data in text box
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmService.ctxCalculate_Click(System.Object,System.EventArgs)">
+	<summary>
+ Creat a instance of clsService and display data
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmFrame.EstimateToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+	<summary>
+ open the estimate form as a child form
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmFrame.tsbExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ close the frame and all child windows
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmFrame.mnuTile_Click(System.Object,System.EventArgs)">
+	<summary>
+ Tile all open forms horizontally
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmFrame.mnuVertically_Click(System.Object,System.EventArgs)">
+	<summary>
+ Tile all open forms vertically
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmFrame.ServiceToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+	<summary>
+ open form Service
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmFrame.AboutToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ open form About
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="P:NETRuikeZhong.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:NETRuikeZhong.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:NETRuikeZhong.My.Resources.Resources.Exterior">
+	<summary>
+  Looks up a localized string similar to Hand Wash
+Hand Wax
+Check Engine Fluid
+Detail Engine Compartment
+.
+</summary>
+</member><member name="P:NETRuikeZhong.My.Resources.Resources.FragDesc">
+	<summary>
+  Looks up a localized string similar to Hawaiian Mist
+Baby Powder
+Pine
+Country Floral
+Pina Colada
+Vanilla.
+</summary>
+</member><member name="P:NETRuikeZhong.My.Resources.Resources.FragPrices">
+	<summary>
+  Looks up a localized string similar to 2.75
+1.50
+0.00
+2.25
+0.75
+2.00.
+</summary>
+</member><member name="P:NETRuikeZhong.My.Resources.Resources.Interior">
+	<summary>
+  Looks up a localized string similar to Fragrance
+Shampoo Carpets
+Interior Protection Coat
+Shampoo Upholstery
+.
+</summary>
+</member><member name="P:NETRuikeZhong.My.Resources.Resources.PkgDesc">
+	<summary>
+  Looks up a localized string similar to Standard
+Deluxe
+Executive
+Luxury.
+</summary>
+</member><member name="P:NETRuikeZhong.My.Resources.Resources.PkgPrices">
+	<summary>
+  Looks up a localized string similar to 7.50
+15.00
+35.00
+55.00
+.
+</summary>
+</member><member name="T:NETRuikeZhong.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:NETRuikeZhong.frmSummary.frmSummary_Load(System.Object,System.EventArgs)">
+	<summary>
+ Loading data and display in proper format
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmCarWash.readFiles(System.String)">
+	<summary>
+ This subprocedure will be used to initialize date
+ based on the contents of the passed filename
+ </summary>
+	<param name="strFileName"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmCarWash.resetFrag">
+	<summary>
+ This function will retrun an integer representing the 
+ index of the Fragrance Combobox containing the searched
+ fragrance
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmCarWash.getFragIndex(System.String)">
+	<summary>
+ This function will receive a string argument 
+ representing the selected Fragrance and will
+ return an integer representing the index
+ of the Frgrance Struct array containing the
+ searched fragrance
+ </summary>
+	<param name="selectedFrag"></param>
+	<returns></returns>
 	<remarks></remarks>
 </member>
 </members>

@@ -18,3 +18,12 @@ C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\ResolveAssemblyRef
 C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.frmEstimate.resources
 C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.Resources.resources
 C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.vbproj.GenerateResource.Cache
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Debug\BusinessTier.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Debug\BusinessTier.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Debug\BusinessTier.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.frmAbout.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.frmCarWash.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.frmFrame.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.frmService.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.frmSummary.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.frmBase.resources

@@ -1,0 +1,9 @@
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\bin\Debug\BusinessTier.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\bin\Debug\BusinessTier.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\bin\Debug\BusinessTier.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\obj\Debug\BusinessTier.Resources.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\obj\Debug\BusinessTier.vbproj.GenerateResource.Cache
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\obj\Debug\BusinessTier.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\obj\Debug\BusinessTier.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\obj\Debug\BusinessTier.pdb

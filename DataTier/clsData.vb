@@ -37,6 +37,17 @@ Public Class clsData
     'level OleDbDataAdapter object defined above
     Dim mcmdCommission As OleDbCommandBuilder
 
+
+    'data set: is populated with the result set
+    'of the database query (holds the actual data)
+    'NONVENDOR SPECIFIC 
+    'DISCONNECTED
+
+    Dim mdsAllUsedCards As New DataSet
+    Dim mdsSingleUsedCard As New DataSet
+    Dim mdsAllSalesStaff As New DataSet
+    Dim mdsAllCommissions As New DataSet
+
     ''' <summary>
     ''' Connect to database
     ''' </summary>
@@ -72,6 +83,127 @@ Public Class clsData
             Throw 'defer exception handling
         End Try
     End Sub
+    ''' <summary>
+    ''' Receive no arguments and will return 
+    ''' mdsAllSalesStaff dataset
+    ''' </summary>
+    ''' <returns></returns>
+    ''' <remarks></remarks>
+    Public Function getSalesStaff() As DataSet
+        Try
+            mdaAllSalesStaff.SelectCommand = New OleDbCommand
+            mdaAllSalesStaff.SelectCommand.Connection = mconAutoSales
 
+            mdaAllSalesStaff.SelectCommand.CommandText = _
+            "SELECT * FROM SalesStaff"
+
+            mdaAllSalesStaff.Fill(mdsAllSalesStaff, "SalesStaff")
+
+            Return mdsAllSalesStaff
+
+        Catch ex As Exception
+            Throw
+        End Try
+        
+    End Function
+    ''' <summary>
+    ''' ''' Receive no arguments and will return 
+    ''' mdsAllUsedCards dataset
+    ''' </summary>
+    ''' <returns></returns>
+    ''' <remarks></remarks>
+    Public Function getAllCars() As DataSet
+        Try
+            mdaAllUsedCards.SelectCommand = New OleDbCommand
+            mdaAllUsedCards.SelectCommand.Connection = mconAutoSales
+
+            mdaAllUsedCards.SelectCommand.CommandText = _
+            "SELECT * FROM UsedCars"
+
+            mdaAllUsedCards.Fill(mdsAllUsedCards, "AllUsedCards")
+
+            mcmdAllCars = New OleDbCommandBuilder(mdaAllUsedCards)
+
+            Return mdsAllUsedCards
+
+        Catch ex As Exception
+
+            Throw
+        End Try
+    End Function
+
+    Public Function getOneCar(ByVal strStockNo As String) As DataSet
+        Try
+            mdsSingleUsedCard.Clear()
+
+            mdaSingleUsedCard.SelectCommand = New OleDbCommand
+            mdaSingleUsedCard.SelectCommand.Connection = mconAutoSales
+
+            mdaSingleUsedCard.SelectCommand.CommandText = _
+            "SELECT * FROM UsedCars WHERE StockNo = " & strStockNo
+
+            mdaSingleUsedCard.Fill(mdsSingleUsedCard, "SingleUsedCard")
+
+            mcmdOneCar = New OleDbCommandBuilder(mdaSingleUsedCard)
+
+
+            Return mdsSingleUsedCard
+
+        Catch ex As Exception
+
+            Throw
+        End Try
+
+
+    End Function
+
+    Public Function getCommission() As DataSet
+        Try
+            mdaAllCommissions.SelectCommand = New OleDbCommand
+            mdaAllCommissions.SelectCommand.Connection = mconAutoSales
+
+            mdaAllCommissions.SelectCommand.CommandText = _
+            "SELECT * FROM Commissions"
+
+            mdaAllCommissions.Fill(mdsAllCommissions, "Commissions")
+
+            mcmdCommission = New OleDbCommandBuilder(mdaAllCommissions)
+
+            Return mdsAllCommissions
+
+        Catch ex As Exception
+
+            Throw
+        End Try
+    End Function
+
+    Public Sub updateCommission(ByVal name As String, _
+                                ByVal stockNum As String, _
+                                ByVal description As String, _
+                                ByVal sale As Decimal)
+
+        mdaAllCommissions.SelectCommand = New OleDbCommand
+        mdaAllCommissions.SelectCommand.Connection = mconAutoSales
+
+        Dim newRow As DataRow
+        newRow = mdsAllCommissions.Tables("Commissions").NewRow
+        mdaAllCommissions.SelectCommand.CommandText = _
+            "SELECT * FROM Commissions"
+        mdaAllCommissions.Fill(mdsAllCommissions, "Commissions")
+        newRow(1) = name
+        newRow(2) = stockNum
+        newRow(3) = description
+        newRow(4) = sale
+        'Add new row to the dataset
+        mdsAllCommissions.Tables("Commissions").Rows.Add(newRow)
+        'make the above insert permanent with an update
+        Try
+            mdaAllCommissions.Update(mdsAllCommissions, "Commissions")
+
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
 
 End Class

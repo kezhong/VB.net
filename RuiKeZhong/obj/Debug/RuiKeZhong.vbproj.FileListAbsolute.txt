@@ -10,3 +10,15 @@ C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Debug\ResolveAssemblyRefere
 C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Debug\RuiKeZhong.dll
 C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Debug\RuiKeZhong.xml
 C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Debug\RuiKeZhong.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\BusinessTier.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\DataTier.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\BusinessTier.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\BusinessTier.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\DataTier.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\DataTier.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\DataTier_Accessor.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\BusinessTier_Accessor.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\DataTier_Accessor.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\BusinessTier_Accessor.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Debug\RuiKeZhong.Resources.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\obj\Debug\RuiKeZhong.vbproj.GenerateResource.Cache

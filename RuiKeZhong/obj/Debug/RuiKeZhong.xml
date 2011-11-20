@@ -6,7 +6,247 @@ RuiKeZhong
 </name>
 </assembly>
 <members>
-<member name="P:RuiKeZhong.frmEstimateTest.TestContext">
+<member name="P:RuiKeZhong.frmCarWashTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:RuiKeZhong.frmCarWashTest.readFilesTest">
+	<summary>
+A test for readFiles
+</summary>
+</member><member name="M:RuiKeZhong.frmCarWashTest.readFilesTest2">
+	<summary>
+A test for readFiles--Exterior.txt
+</summary>
+</member><member name="M:RuiKeZhong.frmCarWashTest.readFilesTest3">
+	<summary>
+A test for readFiles--Exterior.txt
+</summary>
+</member><member name="M:RuiKeZhong.frmCarWashTest.readFilesTest1">
+	<summary>
+A test for readFiles
+</summary>
+</member><member name="M:RuiKeZhong.frmCarWashTest.readFilesTest4">
+	<summary>
+A test for readFiles
+</summary>
+</member><member name="M:RuiKeZhong.frmCarWashTest.readFilesTest5">
+	<summary>
+A test for readFiles
+</summary>
+</member><member name="M:RuiKeZhong.frmCarWashTest.resetFragTest">
+	<summary>
+A test for resetFrag--found "Pine". Expected return index 2 of fragrance combobox 
+</summary>
+</member><member name="M:RuiKeZhong.frmCarWashTest.resetFragTest1">
+	<summary>
+A test for resetFrag--Couldn't find "Pine". Expected return index -1
+</summary>
+</member><member name="M:RuiKeZhong.frmCarWashTest.getFragIndexTest">
+	<summary>
+A test for getFragIndex--
+ find the index of baby powder in FragranceStruct strDescription
+ expected return 1
+</summary>
+</member><member name="M:RuiKeZhong.frmCarWashTest.getFragIndexTest1">
+	<summary>
+A test for getFragIndex--
+ find the index of something no in FragranceStruct strDescription
+ expected return -1
+</summary>
+</member><member name="T:RuiKeZhong.frmCarWashTest">
+	<summary>
+This is a test class for frmCarWashTest and is intended
+to contain all frmCarWashTest Unit Tests
+</summary>
+</member><member name="P:RuiKeZhong.frmServiceTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:RuiKeZhong.frmServiceTest.ctxClear_ClickTest">
+	<summary>
+A test for clear menu
+</summary>
+</member><member name="M:RuiKeZhong.frmServiceTest.txtBoxes_LeaveTest">
+	<summary>
+A test for txtBoxes_Leave
+</summary>
+</member><member name="M:RuiKeZhong.frmServiceTest.txtBoxes_LeaveTest1">
+	<summary>
+A test for txtBoxes_Leave
+ part, price and shop material are entered
+</summary>
+</member><member name="T:RuiKeZhong.frmServiceTest">
+	<summary>
+This is a test class for frmServiceTest and is intended
+to contain all frmServiceTest Unit Tests
+</summary>
+</member><member name="P:RuiKeZhong.clsCommissionTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:RuiKeZhong.clsCommissionTest.CostPriceTest">
+	<summary>
+A test for CostPrice
+</summary>
+</member><member name="M:RuiKeZhong.clsCommissionTest.RetailPriceTest">
+	<summary>
+A test for RetailPrice
+</summary>
+</member><member name="M:RuiKeZhong.clsCommissionTest.clsCommissionConstructorTest">
+	<summary>
+A test for clsCommission Constructor
+</summary>
+</member><member name="M:RuiKeZhong.clsCommissionTest.calCommissionTest">
+	<summary>
+A test for calCommission
+</summary>
+</member><member name="T:RuiKeZhong.clsCommissionTest">
+	<summary>
+This is a test class for clsCommissionTest and is intended
+to contain all clsCommissionTest Unit Tests
+</summary>
+</member><member name="P:RuiKeZhong.frmSummaryTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:RuiKeZhong.frmSummaryTest.frmSummary_LoadTest">
+	<summary>
+A test for summary form
+ 
+</summary>
+</member><member name="T:RuiKeZhong.frmSummaryTest">
+	<summary>
+This is a test class for frmSummaryTest and is intended
+to contain all frmSummaryTest Unit Tests
+</summary>
+</member><member name="P:RuiKeZhong.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:RuiKeZhong.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:RuiKeZhong.My.Resources.Resources.Exterior">
+	<summary>
+  Looks up a localized string similar to Hand Wash
+Hand Wax
+Check Engine Fluid
+Detail Engine Compartment
+.
+</summary>
+</member><member name="P:RuiKeZhong.My.Resources.Resources.FragDesc">
+	<summary>
+  Looks up a localized string similar to Hawaiian Mist
+Baby Powder
+Pine
+Country Floral
+Pina Colada
+Vanilla.
+</summary>
+</member><member name="P:RuiKeZhong.My.Resources.Resources.FragPrices">
+	<summary>
+  Looks up a localized string similar to 2.75
+1.50
+0.00
+2.25
+0.75
+2.00.
+</summary>
+</member><member name="P:RuiKeZhong.My.Resources.Resources.Interior">
+	<summary>
+  Looks up a localized string similar to Fragrance
+Shampoo Carpets
+Interior Protection Coat
+Shampoo Upholstery
+.
+</summary>
+</member><member name="P:RuiKeZhong.My.Resources.Resources.PkgDesc">
+	<summary>
+  Looks up a localized string similar to Standard
+Deluxe
+Executive
+Luxury.
+</summary>
+</member><member name="P:RuiKeZhong.My.Resources.Resources.PkgPrices">
+	<summary>
+  Looks up a localized string similar to 7.50
+15.00
+35.00
+55.00
+.
+</summary>
+</member><member name="T:RuiKeZhong.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:RuiKeZhong.clsServiceTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:RuiKeZhong.clsServiceTest.PartsTest">
+	<summary>
+A test for Parts
+</summary>
+</member><member name="M:RuiKeZhong.clsServiceTest.PricesTest">
+	<summary>
+A test for Prices
+</summary>
+</member><member name="M:RuiKeZhong.clsServiceTest.MaterialsTest">
+	<summary>
+A test for Materials
+</summary>
+</member><member name="M:RuiKeZhong.clsServiceTest.clsServiceConstructorTest">
+	<summary>
+A test for clsService Constructor
+</summary>
+</member><member name="M:RuiKeZhong.clsServiceTest.averageContractTest">
+	<summary>
+A test for average contract includes tax
+</summary>
+</member><member name="M:RuiKeZhong.clsServiceTest.calcAMountTest">
+	<summary>
+A test for calcAMount
+</summary>
+</member><member name="M:RuiKeZhong.clsServiceTest.CalculatedPSTTest">
+	<summary>
+A test for CalculatedPST
+</summary>
+</member><member name="M:RuiKeZhong.clsServiceTest.CalculatedGSTTest">
+	<summary>
+A test for CalculatedGST
+</summary>
+</member><member name="M:RuiKeZhong.clsServiceTest.clsServiceConstructorTest1">
+	<summary>
+A test for clsService Constructor
+</summary>
+</member><member name="T:RuiKeZhong.clsServiceTest">
+	<summary>
+This is a test class for clsServiceTest and is intended
+to contain all clsServiceTest Unit Tests
+</summary>
+</member><member name="P:RuiKeZhong.clsChargesTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:RuiKeZhong.clsChargesTest.clsChargesConstructorTest">
+	<summary>
+A test for clsCharges Constructor
+</summary>
+</member><member name="T:RuiKeZhong.clsChargesTest">
+	<summary>
+This is a test class for clsChargesTest and is intended
+to contain all clsChargesTest Unit Tests
+</summary>
+</member><member name="P:RuiKeZhong.frmEstimateTest.TestContext">
 	<summary>
 Gets or sets the test context which provides
 information about and functionality for the current test run.
@@ -51,15 +291,112 @@ A test for chkAll_CheckedChanged
 	<summary>
 A test for chkAll_CheckedChanged
 </summary>
-</member><member name="M:RuiKeZhong.frmEstimateTest.btnClear_ClickTest">
+</member><member name="M:RuiKeZhong.frmEstimateTest.ctxClear_ClickTest">
 	<summary>
 A test for btnClear_Click
  to ensure that data areas are cleared
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.quoteTest">
+	<summary>
+A test for quote subprocedure -- Do not accept quote
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.quoteTest2">
+	<summary>
+A test for quote subprocedure -- Accept quote
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.clearTest">
+	<summary>
+A test for clear subprocedure -- clear
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.clearTest2">
+	<summary>
+A test for clear subprocedure -- not clear
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.calculateTest">
+	<summary>
+A test for calculate of payment -- Min(0.00) insterest rate, Min(1) year
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.calculateTest2">
+	<summary>
+A test for calculate of payment -- Min(0.00) insterest rate, Max(10) year, Amount due :1000
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.calculateTest3">
+	<summary>
+A test for calculate of payment -- Max(0.25) insterest rate, Max(10) year, Amount due :1000
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.calculateTest4">
+	<summary>
+A test for calculate of payment -- Max(0.25) insterest rate, Min(1) year, Amount due :1000
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.calculateTest5">
+	<summary>
+A test for calculate of payment -- Max(0.25) insterest rate, Max(10) year, Amount due :0
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.calculateTest6">
+	<summary>
+A test for calculate of payment -- Min(0.00) insterest rate, Min(1) year, Amount due :0
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.enableFinanceTest">
+	<summary>
+A test for enableFinance--finace:false
+</summary>
+</member><member name="M:RuiKeZhong.frmEstimateTest.enableFinanceTest1">
+	<summary>
+A test for enableFinance--finace:true
 </summary>
 </member><member name="T:RuiKeZhong.frmEstimateTest">
 	<summary>
 This is a test class for frmEstimateTest and is intended
 to contain all frmEstimateTest Unit Tests
+</summary>
+</member><member name="F:RuiKeZhong.clsDataTest.target">
+	<summary>
+ Module level variables
+ </summary>
+	<remarks></remarks>
+</member><member name="M:RuiKeZhong.clsDataTest.copyDB">
+	<summary>
+ Create a backup of the database
+ </summary>
+	<remarks></remarks>
+</member><member name="M:RuiKeZhong.clsDataTest.restoreDB">
+	<summary>
+ Restore the database from the backup 
+ </summary>
+	<remarks></remarks>
+</member><member name="P:RuiKeZhong.clsDataTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:RuiKeZhong.clsDataTest.connectTest">
+	<summary>
+A test for connect
+</summary>
+</member><member name="M:RuiKeZhong.clsDataTest.getSalesStaffTest">
+	<summary>
+A test for getSalesStaff
+</summary>
+</member><member name="M:RuiKeZhong.clsDataTest.getAllCarsTest">
+	<summary>
+A test for getAllCars
+</summary>
+</member><member name="M:RuiKeZhong.clsDataTest.getOneCarTest">
+	<summary>
+A test for getOneCar
+</summary>
+</member><member name="M:RuiKeZhong.clsDataTest.getCommissionTest">
+	<summary>
+A test for getCommission
+</summary>
+</member><member name="M:RuiKeZhong.clsDataTest.updateCommissionTest">
+	<summary>
+A test for updateCommission
+</summary>
+</member><member name="T:RuiKeZhong.clsDataTest">
+	<summary>
+This is a test class for clsDataTest and is intended
+to contain all clsDataTest Unit Tests
 </summary>
 </member>
 </members>

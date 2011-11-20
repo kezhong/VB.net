@@ -1,4 +1,6 @@
-﻿Imports System.Data
+﻿Imports System
+
+Imports System.Data
 
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 
@@ -107,5 +109,121 @@ Public Class clsDataTest
         'Assert.Inconclusive("A method that does not return a value cannot be verified.")
     End Sub
 
+    '''<summary>
+    '''A test for getSalesStaff
+    '''</summary>
+    <TestMethod()> _
+    Public Sub getSalesStaffTest()
+        'Dim target As clsData = New clsData ' TODO: Initialize to an appropriate value
+        Dim expected As Boolean ' TODO: Initialize to an appropriate value
+        Dim actual As Boolean
+        Dim dsReturned As New DataSet
 
+        dsReturned = target.getSalesStaff()
+        expected = True
+
+        If dsReturned.Tables(0).Rows.Count > 0 Then
+            actual = True
+        Else
+            actual = False
+        End If
+
+        Assert.AreEqual(expected, actual, "retrieval failed")
+    End Sub
+
+    '''<summary>
+    '''A test for getAllCars
+    '''</summary>
+    <TestMethod()> _
+    Public Sub getAllCarsTest()
+        'Dim target As clsData = New clsData ' TODO: Initialize to an appropriate value
+        Dim expected As Boolean ' TODO: Initialize to an appropriate value
+        Dim actual As Boolean
+        Dim dsReturned As New DataSet
+
+        dsReturned = target.getAllCars()
+        expected = True
+
+        If dsReturned.Tables(0).Rows.Count > 0 Then
+            actual = True
+        Else
+            actual = False
+        End If
+
+        Assert.AreEqual(expected, actual, "retrieval failed")
+    End Sub
+
+    '''<summary>
+    '''A test for getOneCar
+    '''</summary>
+    <TestMethod()> _
+    Public Sub getOneCarTest()
+        'Dim target As clsData = New clsData ' TODO: Initialize to an appropriate value
+        Dim strStockNo As String = "1995101" ' TODO: Initialize to an appropriate value
+        Dim expected As Boolean ' TODO: Initialize to an appropriate value
+        Dim actual As Boolean
+
+        Dim dsReturned As New DataSet
+
+        dsReturned = target.getOneCar(strStockNo)
+        expected = True
+
+        If dsReturned.Tables(0).Rows.Count > 0 Then
+            actual = True
+        Else
+            actual = False
+        End If
+
+        Assert.AreEqual(expected, actual, "retrieval failed")
+    End Sub
+
+    '''<summary>
+    '''A test for getCommission
+    '''</summary>
+    <TestMethod()> _
+    Public Sub getCommissionTest()
+        Dim expected As Boolean ' TODO: Initialize to an appropriate value
+        Dim actual As Boolean
+        Dim dsReturned As New DataSet
+
+        dsReturned = target.getCommission()
+        expected = True
+
+        If dsReturned.Tables(0).Rows.Count > 0 Then
+            actual = True
+        Else
+            actual = False
+        End If
+
+        Assert.AreEqual(expected, actual, "retrieval failed")
+    End Sub
+
+    '''<summary>
+    '''A test for updateCommission
+    '''</summary>
+    <TestMethod()> _
+    Public Sub updateCommissionTest()
+        'Dim target As clsData = New clsData ' TODO: Initialize to an appropriate value
+        Dim name As String = "Ke" ' TODO: Initialize to an appropriate value
+        Dim stockNum As String = "123456" ' TODO: Initialize to an appropriate value
+        Dim description As String = "me" ' TODO: Initialize to an appropriate value
+        Dim sale As Decimal = 12D ' TODO: Initialize to an appropriate value
+        Dim expected As String = "Ke"
+        Dim actual As String
+        Dim drRow As System.Data.DataRow
+
+        Dim dsChanged As DataSet
+        dsChanged = target.getCommission()
+
+        drRow = dsChanged.Tables(0).Rows(0)
+        drRow(1) = "Ke"
+
+        target.updateCommission(name, stockNum, description, sale)
+        dsChanged.Clear()
+        dsChanged = target.getCommission()
+
+        actual = dsChanged.Tables(0).Rows(0)(1)
+        Assert.AreEqual(expected, actual, "Database update failed")
+        'Assert.Inconclusive("A method that does not return a value cannot be verified.")
+    End Sub
 End Class
