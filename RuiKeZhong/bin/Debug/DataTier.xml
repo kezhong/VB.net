@@ -27,7 +27,7 @@ DataTier
 </member><member name="M:DataTier.clsData.getAllCars">
 	<summary>
  ''' Receive no arguments and will return 
- mdsAllUsedCards dataset
+ mdsAllUsedCars dataset
  </summary>
 	<returns></returns>
 	<remarks></remarks>

@@ -78,6 +78,12 @@
     <Compile Include="frmCarWash.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmCommission.Designer.vb">
+      <DependentUpon>frmCommission.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCommission.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmEstimate.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -171,8 +177,15 @@
       <Project>{C28FCB59-86FE-421D-8453-2143726F21F6}</Project>
       <Name>BusinessTier</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DataTier\DataTier.vbproj">
+      <Project>{1C47E3D0-903F-4089-823A-1396CF54A60C}</Project>
+      <Name>DataTier</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmCommission.resx">
+      <DependentUpon>frmCommission.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\Exterior.txt" />
     <EmbeddedResource Include="Resources\FragDesc.txt" />
     <EmbeddedResource Include="Resources\FragPrices.txt" />

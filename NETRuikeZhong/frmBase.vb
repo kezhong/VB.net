@@ -17,4 +17,21 @@
             Return MessageBox.Show(text, caption, buttons, icon, defaultButton)
         End If
     End Function
+
+    Protected Function validateNumeric(ByVal value As String) As Boolean
+        If value.Length <= 0 Then
+            sendMessage("Data must be entered", "Error")
+            Return False
+        Else
+            If (IsNumeric(value)) Then
+                Return True
+            Else
+                sendMessage("Data must be a number", "Error")
+                Return False
+
+            End If
+        End If
+
+    End Function
+
 End Class

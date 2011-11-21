@@ -27,3 +27,7 @@ C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.frmF
 C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.frmService.resources
 C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.frmSummary.resources
 C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.frmBase.resources
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Debug\DataTier.dll
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Debug\DataTier.pdb
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Debug\DataTier.xml
+C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\obj\Debug\NETRuikeZhong.frmCommission.resources

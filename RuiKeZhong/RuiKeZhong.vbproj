@@ -62,6 +62,7 @@
     <Compile Include="clsCommissionTest.vb" />
     <Compile Include="clsDataTest.vb" />
     <Compile Include="clsServiceTest.vb" />
+    <Compile Include="frmBaseTest.vb" />
     <Compile Include="frmCarWashTest.vb" />
     <Compile Include="frmEstimateTest.vb" />
     <Compile Include="frmServiceTest.vb" />

@@ -11,10 +11,10 @@ Public Class clsData
     'data adapter:  handles and retrieval and updating
     'of the data
     'select all records from the UsedCars table
-    Dim mdaAllUsedCards As New OleDbDataAdapter
+    Dim mdaAllUsedcars As New OleDbDataAdapter
 
     'select single records from the UsedCars table
-    Dim mdaSingleUsedCard As New OleDbDataAdapter
+    Dim mdaSingleUsedCar As New OleDbDataAdapter
 
     'select all records from the SalesStaff table
     Dim mdaAllSalesStaff As New OleDbDataAdapter
@@ -43,8 +43,8 @@ Public Class clsData
     'NONVENDOR SPECIFIC 
     'DISCONNECTED
 
-    Dim mdsAllUsedCards As New DataSet
-    Dim mdsSingleUsedCard As New DataSet
+    Dim mdsAllUsedCars As New DataSet
+    Dim mdsSingleUsedCar As New DataSet
     Dim mdsAllSalesStaff As New DataSet
     Dim mdsAllCommissions As New DataSet
 
@@ -104,27 +104,27 @@ Public Class clsData
         Catch ex As Exception
             Throw
         End Try
-        
+
     End Function
     ''' <summary>
     ''' ''' Receive no arguments and will return 
-    ''' mdsAllUsedCards dataset
+    ''' mdsAllUsedCars dataset
     ''' </summary>
     ''' <returns></returns>
     ''' <remarks></remarks>
     Public Function getAllCars() As DataSet
         Try
-            mdaAllUsedCards.SelectCommand = New OleDbCommand
-            mdaAllUsedCards.SelectCommand.Connection = mconAutoSales
+            mdaAllUsedcars.SelectCommand = New OleDbCommand
+            mdaAllUsedcars.SelectCommand.Connection = mconAutoSales
 
-            mdaAllUsedCards.SelectCommand.CommandText = _
+            mdaAllUsedcars.SelectCommand.CommandText = _
             "SELECT * FROM UsedCars"
 
-            mdaAllUsedCards.Fill(mdsAllUsedCards, "AllUsedCards")
+            mdaAllUsedcars.Fill(mdsAllUsedCars, "AllUsedCards")
 
-            mcmdAllCars = New OleDbCommandBuilder(mdaAllUsedCards)
+            mcmdAllCars = New OleDbCommandBuilder(mdaAllUsedcars)
 
-            Return mdsAllUsedCards
+            Return mdsAllUsedCars
 
         Catch ex As Exception
 
@@ -134,20 +134,20 @@ Public Class clsData
 
     Public Function getOneCar(ByVal strStockNo As String) As DataSet
         Try
-            mdsSingleUsedCard.Clear()
+            mdsSingleUsedCar.Clear()
 
-            mdaSingleUsedCard.SelectCommand = New OleDbCommand
-            mdaSingleUsedCard.SelectCommand.Connection = mconAutoSales
+            mdaSingleUsedCar.SelectCommand = New OleDbCommand
+            mdaSingleUsedCar.SelectCommand.Connection = mconAutoSales
 
-            mdaSingleUsedCard.SelectCommand.CommandText = _
-            "SELECT * FROM UsedCars WHERE StockNo = " & strStockNo
+            mdaSingleUsedCar.SelectCommand.CommandText = _
+            "SELECT StockNo, ManufacturedYear, Description, Model, Color, CostPrice, RetailPrice FROM UsedCars WHERE StockNo = " & strStockNo
 
-            mdaSingleUsedCard.Fill(mdsSingleUsedCard, "SingleUsedCard")
+            mdaSingleUsedCar.Fill(mdsSingleUsedCar, "UsedCars")
 
-            mcmdOneCar = New OleDbCommandBuilder(mdaSingleUsedCard)
+            mcmdOneCar = New OleDbCommandBuilder(mdaSingleUsedCar)
 
 
-            Return mdsSingleUsedCard
+            Return mdsSingleUsedCar
 
         Catch ex As Exception
 
@@ -203,6 +203,53 @@ Public Class clsData
 
         Catch ex As Exception
 
+        End Try
+    End Sub
+
+    Public Sub updateNewCar(ByVal stockNum As String, _
+                               ByVal manufacturedYear As Integer, _
+                               ByVal description As String, _
+                               ByVal model As String, _
+                               ByVal color As String, _
+                               ByVal cost As Decimal, _
+                               ByVal retailPrice As Decimal)
+
+        mdaAllUsedcars.SelectCommand = New OleDbCommand
+        mdaAllUsedcars.SelectCommand.Connection = mconAutoSales
+
+        Dim newRow As DataRow
+        newRow = mdsAllUsedCars.Tables("UsedCars").NewRow
+        mdaAllUsedcars.SelectCommand.CommandText = _
+        "SELECT StockNo, ManufacturedYear, Description, Model, Color, CostPrice, RetailPrice FROM UsedCars"
+        mdaAllUsedcars.Fill(mdsAllUsedCars, "UsedCars")
+
+        newRow("StockNo") = stockNum
+        newRow("ManufacturedYear") = manufacturedYear
+        newRow("Description") = description
+        newRow("Model") = model
+        newRow("Color") = color
+        newRow("CostPrice") = cost
+        newRow("RetailPrice") = retailPrice
+
+        'Add new row to the dataset
+        mdsAllUsedCars.Tables("UsedCars").Rows.Add(newRow)
+        'make the above insert permanent with an update
+        Try
+            mdaAllUsedcars.Update(mdsAllUsedCars, "UsedCars")
+
+
+        Catch ex As Exception
+            Throw
+
+        End Try
+    End Sub
+
+    Public Sub updateOneCar(ByVal dsChanged As DataSet)
+        Try
+
+            mdaSingleUsedCar.Update(dsChanged, "UsedCars")
+        Catch ex As Exception
+            Throw
         End Try
     End Sub
 

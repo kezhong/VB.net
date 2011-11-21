@@ -162,11 +162,11 @@ Public Class clsDataTest
         Dim strStockNo As String = "1995101" ' TODO: Initialize to an appropriate value
         Dim expected As Boolean ' TODO: Initialize to an appropriate value
         Dim actual As Boolean
-
+        expected = True
         Dim dsReturned As New DataSet
 
         dsReturned = target.getOneCar(strStockNo)
-        expected = True
+
 
         If dsReturned.Tables(0).Rows.Count > 0 Then
             actual = True
@@ -225,5 +225,76 @@ Public Class clsDataTest
         actual = dsChanged.Tables(0).Rows(0)(1)
         Assert.AreEqual(expected, actual, "Database update failed")
         'Assert.Inconclusive("A method that does not return a value cannot be verified.")
+    End Sub
+
+    '''<summary>
+    '''A test for updateNewCar
+    '''</summary>
+    <TestMethod()> _
+    Public Sub updateNewCarTest()
+        Dim stockNum As String = "1231" ' TODO: Initialize to an appropriate value
+        Dim manufacturedYear As Integer = 2011 ' TODO: Initialize to an appropriate value
+        Dim description As String = "myCar" ' TODO: Initialize to an appropriate value
+        Dim model As String = "SUV" ' TODO: Initialize to an appropriate value
+        Dim color As String = "Blue" ' TODO: Initialize to an appropriate value
+        Dim cost As Decimal = 10000.6D ' TODO: Initialize to an appropriate value
+        Dim retailPrice As Decimal = 20000.8D ' TODO: Initialize to an appropriate value
+
+        Dim expected As String = "SUV"
+        Dim actual As String
+        Dim drRow As System.Data.DataRow
+
+        Dim dsChanged As DataSet
+        dsChanged = target.getAllCars()
+
+        drRow = dsChanged.Tables(0).Rows(0)
+        drRow(3) = "SUV"
+
+        target.updateNewCar(stockNum, manufacturedYear, description, model, color, cost, retailPrice)
+
+        dsChanged.Clear()
+        dsChanged = target.getAllCars()
+
+        actual = dsChanged.Tables(0).Rows(0)(3)
+        Assert.AreEqual(expected, actual, "Database update failed")
+    End Sub
+
+    '''<summary>
+    '''A test for updateOneCar
+    '''</summary>
+    <TestMethod()> _
+    Public Sub updateOneCarTest()
+        'Dim target As clsData = New clsData ' TODO: Initialize to an appropriate value
+        Dim dsChanged As DataSet = Nothing ' TODO: Initialize to an appropriate value
+        Dim expected As String
+        Dim actual As String
+
+        'starting point
+        dsChanged = target.getAllCars()
+
+        'modify data
+        Dim drRow As System.Data.DataRow
+
+        drRow = dsChanged.Tables(0).Rows(0)
+
+
+        drRow(0) = 123456
+
+        expected = 123456
+
+        'update
+        target.updateOneCar(dsChanged)
+
+        'verify updated data
+        'empty out previous result set
+        dsChanged.Clear()
+
+        dsChanged = target.getAllCars()
+
+        actual = _
+            dsChanged.Tables(0).Rows(0)(0)
+
+
+        Assert.AreEqual(expected, actual, "Database update failed")
     End Sub
 End Class

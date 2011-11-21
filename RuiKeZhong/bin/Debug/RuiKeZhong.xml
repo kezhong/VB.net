@@ -6,7 +6,21 @@ RuiKeZhong
 </name>
 </assembly>
 <members>
-<member name="P:RuiKeZhong.frmCarWashTest.TestContext">
+<member name="P:RuiKeZhong.frmBaseTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:RuiKeZhong.frmBaseTest.validateNumericTest">
+	<summary>
+A test for validateNumeric
+</summary>
+</member><member name="T:RuiKeZhong.frmBaseTest">
+	<summary>
+This is a test class for frmBaseTest and is intended
+to contain all frmBaseTest Unit Tests
+</summary>
+</member><member name="P:RuiKeZhong.frmCarWashTest.TestContext">
 	<summary>
 Gets or sets the test context which provides
 information about and functionality for the current test run.
@@ -392,6 +406,14 @@ A test for getCommission
 </member><member name="M:RuiKeZhong.clsDataTest.updateCommissionTest">
 	<summary>
 A test for updateCommission
+</summary>
+</member><member name="M:RuiKeZhong.clsDataTest.updateNewCarTest">
+	<summary>
+A test for updateNewCar
+</summary>
+</member><member name="M:RuiKeZhong.clsDataTest.updateOneCarTest">
+	<summary>
+A test for updateOneCar
 </summary>
 </member><member name="T:RuiKeZhong.clsDataTest">
 	<summary>
