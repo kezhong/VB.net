@@ -64,9 +64,11 @@
     <Compile Include="clsServiceTest.vb" />
     <Compile Include="frmBaseTest.vb" />
     <Compile Include="frmCarWashTest.vb" />
+    <Compile Include="frmCommissionTest.vb" />
     <Compile Include="frmEstimateTest.vb" />
     <Compile Include="frmServiceTest.vb" />
     <Compile Include="frmSummaryTest.vb" />
+    <Compile Include="frmVBAutoTest.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>

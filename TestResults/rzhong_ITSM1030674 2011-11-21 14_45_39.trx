@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e2a68237-2c72-4ddd-a106-d3b5f6b7f919" name="rzhong@ITSM1030674 2011-11-21 14:45:39" runUser="ACADEMIC\rzhong" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="c42c55b2-03a0-4cde-a9da-4bdc707620e0">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\rzhong\Desktop\NETRuikeZhong\TestResults\rzhong_ITSM1030674 2011-11-21 14_45_39">
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Debug\NETRuikeZhong.exe" />
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\bin\Debug\DataTier.dll" />
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\bin\Debug\BusinessTier.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-11-21T14:45:39.8153434-06:00" queuing="2011-11-21T14:45:40.5854204-06:00" start="2011-11-21T14:45:40.7324351-06:00" finish="2011-11-21T14:45:41.3644983-06:00" />
+  <TestDefinitions>
+    <UnitTest name="updateNewCarTest" storage="c:\users\rzhong\desktop\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="237bda40-fa0b-3f6a-1f90-191e192a1943">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2e3b7258-c024-4f34-884d-a91f14ec95a7" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsDataTest, RuiKeZhong" name="updateNewCarTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="237bda40-fa0b-3f6a-1f90-191e192a1943" executionId="2e3b7258-c024-4f34-884d-a91f14ec95a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2e3b7258-c024-4f34-884d-a91f14ec95a7" testId="237bda40-fa0b-3f6a-1f90-191e192a1943" testName="updateNewCarTest" computerName="ITSM1030674" duration="00:00:00.1252801" startTime="2011-11-21T14:45:40.7774396-06:00" endTime="2011-11-21T14:45:41.3144933-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RuiKeZhong.clsDataTest.updateNewCarTest threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at DataTier.clsData.updateNewCar(String stockNum, Int32 manufacturedYear, String description, String model, String color, Decimal cost, Decimal retailPrice) in C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\clsData.vb:line 221
+   at DataTier.clsData_Accessor.updateNewCar(String stockNum, Int32 manufacturedYear, String description, String model, String color, Decimal cost, Decimal retailPrice)
+   at RuiKeZhong.clsDataTest.updateNewCarTest() in C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\clsDataTest.vb:line 253
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

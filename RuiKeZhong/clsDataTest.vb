@@ -240,22 +240,24 @@ Public Class clsDataTest
         Dim cost As Decimal = 10000.6D ' TODO: Initialize to an appropriate value
         Dim retailPrice As Decimal = 20000.8D ' TODO: Initialize to an appropriate value
 
-        Dim expected As String = "SUV"
-        Dim actual As String
-        Dim drRow As System.Data.DataRow
+        Dim expected As Integer
+        Dim actual As Integer
+        'Dim drRow As System.Data.DataRow
 
         Dim dsChanged As DataSet
         dsChanged = target.getAllCars()
 
-        drRow = dsChanged.Tables(0).Rows(0)
-        drRow(3) = "SUV"
+        expected = dsChanged.Tables(0).Rows.Count + 1
+
+        'drRow = dsChanged.Tables(0).Rows(0)
+        'drRow(3) = "SUV"
 
         target.updateNewCar(stockNum, manufacturedYear, description, model, color, cost, retailPrice)
 
         dsChanged.Clear()
         dsChanged = target.getAllCars()
 
-        actual = dsChanged.Tables(0).Rows(0)(3)
+        actual = dsChanged.Tables(0).Rows.Count
         Assert.AreEqual(expected, actual, "Database update failed")
     End Sub
 
@@ -270,7 +272,7 @@ Public Class clsDataTest
         Dim actual As String
 
         'starting point
-        dsChanged = target.getAllCars()
+        dsChanged = target.getOneCar("1995101")
 
         'modify data
         Dim drRow As System.Data.DataRow
@@ -278,9 +280,9 @@ Public Class clsDataTest
         drRow = dsChanged.Tables(0).Rows(0)
 
 
-        drRow(0) = 123456
+        drRow(2) = "mycar"
 
-        expected = 123456
+        expected = "mycar"
 
         'update
         target.updateOneCar(dsChanged)
@@ -289,10 +291,10 @@ Public Class clsDataTest
         'empty out previous result set
         dsChanged.Clear()
 
-        dsChanged = target.getAllCars()
+        dsChanged = target.getOneCar("1995101")
 
         actual = _
-            dsChanged.Tables(0).Rows(0)(0)
+            dsChanged.Tables(0).Rows(0)(2)
 
 
         Assert.AreEqual(expected, actual, "Database update failed")

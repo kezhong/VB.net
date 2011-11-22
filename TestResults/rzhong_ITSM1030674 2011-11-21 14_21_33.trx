@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ff7c6832-f7b6-4e77-b46e-5935198ebe8c" name="rzhong@ITSM1030674 2011-11-21 14:21:33" runUser="ACADEMIC\rzhong" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="c42c55b2-03a0-4cde-a9da-4bdc707620e0">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\rzhong\Desktop\NETRuikeZhong\TestResults\rzhong_ITSM1030674 2011-11-21 14_21_33">
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Debug\NETRuikeZhong.exe" />
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\bin\Debug\DataTier.dll" />
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\bin\Debug\BusinessTier.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-11-21T14:21:33.0196736-06:00" queuing="2011-11-21T14:21:33.5237240-06:00" start="2011-11-21T14:21:33.6637380-06:00" finish="2011-11-21T14:21:34.4078124-06:00" />
+  <TestDefinitions>
+    <UnitTest name="updateNewCarTest" storage="c:\users\rzhong\desktop\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="237bda40-fa0b-3f6a-1f90-191e192a1943">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="693e187f-93d7-4261-8bcb-0c58473f119d" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsDataTest, RuiKeZhong" name="updateNewCarTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="237bda40-fa0b-3f6a-1f90-191e192a1943" executionId="693e187f-93d7-4261-8bcb-0c58473f119d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="693e187f-93d7-4261-8bcb-0c58473f119d" testId="237bda40-fa0b-3f6a-1f90-191e192a1943" testName="updateNewCarTest" computerName="ITSM1030674" duration="00:00:00.2717588" startTime="2011-11-21T14:21:33.7127429-06:00" endTime="2011-11-21T14:21:34.3658082-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

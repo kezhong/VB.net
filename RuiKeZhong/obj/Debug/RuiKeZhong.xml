@@ -6,19 +6,29 @@ RuiKeZhong
 </name>
 </assembly>
 <members>
-<member name="P:RuiKeZhong.frmBaseTest.TestContext">
+<member name="M:RuiKeZhong.frmVBAutoTest.copyDB">
+	<summary>
+ Create a backup of the database
+ </summary>
+	<remarks></remarks>
+</member><member name="M:RuiKeZhong.frmVBAutoTest.restoreDB">
+	<summary>
+ Restore the database from the backup 
+ </summary>
+	<remarks></remarks>
+</member><member name="P:RuiKeZhong.frmVBAutoTest.TestContext">
 	<summary>
 Gets or sets the test context which provides
 information about and functionality for the current test run.
 </summary>
-</member><member name="M:RuiKeZhong.frmBaseTest.validateNumericTest">
+</member><member name="M:RuiKeZhong.frmVBAutoTest.refreshDataTest">
 	<summary>
-A test for validateNumeric
+A test for refreshData
 </summary>
-</member><member name="T:RuiKeZhong.frmBaseTest">
+</member><member name="T:RuiKeZhong.frmVBAutoTest">
 	<summary>
-This is a test class for frmBaseTest and is intended
-to contain all frmBaseTest Unit Tests
+This is a test class for frmVBAutoTest and is intended
+to contain all frmVBAutoTest Unit Tests
 </summary>
 </member><member name="P:RuiKeZhong.frmCarWashTest.TestContext">
 	<summary>
@@ -96,6 +106,20 @@ A test for txtBoxes_Leave
 	<summary>
 This is a test class for frmServiceTest and is intended
 to contain all frmServiceTest Unit Tests
+</summary>
+</member><member name="P:RuiKeZhong.frmBaseTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:RuiKeZhong.frmBaseTest.validateNumericTest">
+	<summary>
+A test for validateNumeric
+</summary>
+</member><member name="T:RuiKeZhong.frmBaseTest">
+	<summary>
+This is a test class for frmBaseTest and is intended
+to contain all frmBaseTest Unit Tests
 </summary>
 </member><member name="P:RuiKeZhong.clsCommissionTest.TestContext">
 	<summary>
@@ -259,6 +283,26 @@ A test for clsCharges Constructor
 	<summary>
 This is a test class for clsChargesTest and is intended
 to contain all clsChargesTest Unit Tests
+</summary>
+</member><member name="M:RuiKeZhong.frmCommissionTest.copyDB">
+	<summary>
+ Create a backup of the database
+ </summary>
+	<remarks></remarks>
+</member><member name="M:RuiKeZhong.frmCommissionTest.restoreDB">
+	<summary>
+ Restore the database from the backup 
+ </summary>
+	<remarks></remarks>
+</member><member name="P:RuiKeZhong.frmCommissionTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="T:RuiKeZhong.frmCommissionTest">
+	<summary>
+This is a test class for frmCommissionTest and is intended
+to contain all frmCommissionTest Unit Tests
 </summary>
 </member><member name="P:RuiKeZhong.frmEstimateTest.TestContext">
 	<summary>

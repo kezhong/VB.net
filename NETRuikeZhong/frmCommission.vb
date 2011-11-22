@@ -1,4 +1,7 @@
-﻿Public Class frmCommission
+﻿Imports System.Data.OleDb
+Public Class frmCommission
+    
+
 
     Private Sub frmCommission_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Dim objData As New DataTier.clsData()
@@ -15,4 +18,8 @@
         End Try
 
     End Sub
+
+    
+    
+
 End Class

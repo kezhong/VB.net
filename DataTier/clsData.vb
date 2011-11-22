@@ -140,7 +140,7 @@ Public Class clsData
             mdaSingleUsedCar.SelectCommand.Connection = mconAutoSales
 
             mdaSingleUsedCar.SelectCommand.CommandText = _
-            "SELECT StockNo, ManufacturedYear, Description, Model, Color, CostPrice, RetailPrice FROM UsedCars WHERE StockNo = " & strStockNo
+            "SELECT * FROM UsedCars WHERE StockNo = '" & strStockNo & "'"
 
             mdaSingleUsedCar.Fill(mdsSingleUsedCar, "UsedCars")
 
@@ -217,11 +217,13 @@ Public Class clsData
         mdaAllUsedcars.SelectCommand = New OleDbCommand
         mdaAllUsedcars.SelectCommand.Connection = mconAutoSales
 
+
+        mdaAllUsedcars.SelectCommand.CommandText = _
+        "SELECT * FROM UsedCars"
+        mdaAllUsedcars.Fill(mdsAllUsedCars, "UsedCars")
+
         Dim newRow As DataRow
         newRow = mdsAllUsedCars.Tables("UsedCars").NewRow
-        mdaAllUsedcars.SelectCommand.CommandText = _
-        "SELECT StockNo, ManufacturedYear, Description, Model, Color, CostPrice, RetailPrice FROM UsedCars"
-        mdaAllUsedcars.Fill(mdsAllUsedCars, "UsedCars")
 
         newRow("StockNo") = stockNum
         newRow("ManufacturedYear") = manufacturedYear

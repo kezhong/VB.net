@@ -109,6 +109,12 @@
     <Compile Include="frmSummary.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmVBAuto.Designer.vb">
+      <DependentUpon>frmVBAuto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVBAuto.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -185,6 +191,9 @@
   <ItemGroup>
     <EmbeddedResource Include="frmCommission.resx">
       <DependentUpon>frmCommission.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVBAuto.resx">
+      <DependentUpon>frmVBAuto.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Exterior.txt" />
     <EmbeddedResource Include="Resources\FragDesc.txt" />

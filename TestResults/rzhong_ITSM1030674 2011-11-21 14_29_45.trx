@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aa1054e2-cbb3-4d1c-a403-0943271e4ded" name="rzhong@ITSM1030674 2011-11-21 14:29:45" runUser="ACADEMIC\rzhong" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="c42c55b2-03a0-4cde-a9da-4bdc707620e0">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\rzhong\Desktop\NETRuikeZhong\TestResults\rzhong_ITSM1030674 2011-11-21 14_29_45">
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Debug\NETRuikeZhong.exe" />
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\bin\Debug\DataTier.dll" />
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\NETRuikeZhong\BusinessTier\bin\Debug\BusinessTier.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-11-21T14:29:45.6308778-06:00" queuing="2011-11-21T14:29:45.9548778-06:00" start="2011-11-21T14:29:45.9808778-06:00" finish="2011-11-21T14:29:46.3888778-06:00" />
+  <TestDefinitions>
+    <UnitTest name="getCommissionTest" storage="c:\users\rzhong\desktop\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="950cebad-c541-8a83-c710-f78c76cb02a1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="10a69cb1-fda5-495d-92b9-c0199e0e7c46" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsDataTest, RuiKeZhong" name="getCommissionTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="950cebad-c541-8a83-c710-f78c76cb02a1" executionId="10a69cb1-fda5-495d-92b9-c0199e0e7c46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="10a69cb1-fda5-495d-92b9-c0199e0e7c46" testId="950cebad-c541-8a83-c710-f78c76cb02a1" testName="getCommissionTest" computerName="ITSM1030674" duration="00:00:00.0746292" startTime="2011-11-21T14:29:45.9908778-06:00" endTime="2011-11-21T14:29:46.3748778-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
