@@ -18,7 +18,7 @@ Public Class frmVBAuto
     Private Sub refreshData(ByVal stockNo As String)
         mdsAllUsedCars.Clear()
         mdsAllUsedCars = objClsData.getAllCars()
-        stockNo = cmbStock.Text
+        cmbStock.Text = stockNo
     End Sub
     'This subprocedure will bind the various controls to module
     'level DataSet containing the corresponding data
@@ -90,9 +90,9 @@ Public Class frmVBAuto
     End Sub
 
     Private Sub txtBoxes_LeaveChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) _
-    Handles txtDescription.TextChanged, _
-            txtCostPrice.TextChanged, _
-            txtRetailPrice.TextChanged
+    Handles txtDescription.Leave, _
+            txtCostPrice.Leave, _
+            txtRetailPrice.Leave
         Dim name As String
         Dim value As String
         Dim txtBox As TextBox
@@ -100,24 +100,22 @@ Public Class frmVBAuto
         If txtBox.Text.Length > 0 And txtBox.Modified Then
             name = txtBox.Name
             value = txtBox.Text
-            'Dim frmStockMaintenance As frmStockMaintenance
-            'frmStockMaintenance = New frmStockMaintenance(cmbStock.Text, name, value)
-            'frmStockMaintenance.Show()
-            'refreshData(cmbStock.Text)
+            Dim frmStockMaintenance As frmStockMaintenance
+            frmStockMaintenance = New frmStockMaintenance(cmbStock.Text, name, value)
+            frmStockMaintenance.ShowDialog()
+            refreshData(cmbStock.Text)
         End If
 
 
     End Sub
 
-    Private Sub cmbStock_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) _
-    Handles cmbStock.TextChanged
-
+    Private Sub cmbStock_Leave(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbStock.Leave
         Dim result As Boolean
         result = validateNumeric(Trim(cmbStock.Text))
 
         If result Then
             mdsSingleUsedCar = objClsData.getOneCar(cmbStock.Text)
-            If mdsSingleUsedCar.Tables("Commissions").Rows.Count > 0 Then
+            If mdsSingleUsedCar.Tables("UsedCars").Rows.Count > 0 Then
                 refreshData(cmbStock.Text)
             Else
                 If cmbStock.Text.Length <= 7 Then
@@ -127,7 +125,7 @@ Public Class frmVBAuto
                     If resultYN = Windows.Forms.DialogResult.Yes Then
                         Dim frmStockMaintenanceInstance As frmStockMaintenance
                         frmStockMaintenanceInstance = New frmStockMaintenance(cmbStock.Text)
-                        frmStockMaintenanceInstance.Show()
+                        frmStockMaintenanceInstance.ShowDialog()
                         mdsSingleUsedCar.Clear()
                         mdsSingleUsedCar = objClsData.getOneCar(cmbStock.Text)
 
@@ -150,6 +148,7 @@ Public Class frmVBAuto
 
         End If
     End Sub
+
 
     Private Sub cmbStock_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbStock.SelectedIndexChanged
         lblCommission.Text = ""

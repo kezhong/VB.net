@@ -9,7 +9,7 @@ Public Class frmStockMaintenance
     Dim mdsSingleCar As DataSet
     Dim mdsAllCars As DataSet
     Dim mbmOneCar As BindingManagerBase
-    Dim mobjClsData As DataTier.clsData
+    Dim mobjClsData As New DataTier.clsData
     Public Sub bindData()
         Try
             lblStockNo.DataBindings.Add("Text", mdsSingleCar.Tables("UsedCars"), "StockNo")
@@ -62,18 +62,15 @@ Public Class frmStockMaintenance
                 bindData()
 
                 Select Case mdsName
-                    Case "ManufacturedYear"
-                        txtYear.Focus()
-                    Case "Description"
+                    Case "txtDescription"
                         txtDescription.Focus()
-                    Case "Model"
-                        txtModel.Focus()
-                    Case "Color"
-                        txtColour.Focus()
-                    Case "CostPrice"
+                        txtDescription.Text = mdsValue
+                    Case "txtCostPrice"
                         txtCostPrice.Focus()
-                    Case "RetailPrice"
+                        txtCostPrice.Text = mdsValue
+                    Case "txtRetailPrice"
                         txtRetailPrice.Focus()
+                        txtRetailPrice.Text = mdsValue
 
                     Case Else
                         txtDescription.Focus()
@@ -88,27 +85,28 @@ Public Class frmStockMaintenance
 
 
     Public Sub txtBoxes_LeaveChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) _
-    Handles txtDescription.LostFocus, _
-            txtCostPrice.LostFocus, _
-            txtRetailPrice.LostFocus, _
-            txtColour.LostFocus, _
-            txtModel.LostFocus, _
-            txtYear.LostFocus
+    Handles txtDescription.Leave, _
+            txtCostPrice.Leave, _
+            txtRetailPrice.Leave, _
+            txtColour.Leave, _
+            txtModel.Leave, _
+            txtYear.Leave
 
 
         Dim txtBox As TextBox
         txtBox = CType(sender, TextBox)
         If txtBox.Name = "txtCostPrice" Or txtBox.Name = "txtRetailPrice" _
          Or txtBox.Name = "txtYear" Then
-            Dim result As Boolean = validateNumeric(txtBox.Name)
-            If result And txtBox.Name = "txtYear" Then
-                If txtYear.Text.Length = 4 Then
-                Else
-                    sendMessage("Year has to be entered 4 digits", "Error: Year")
-                    txtBox.SelectAll()
-                    txtBox.Focus()
+            Dim result As Boolean = validateNumeric(txtBox.Text)
+            If result Then
+                If txtBox.Name = "txtYear" Then
+                    If txtYear.Text.Length = 4 Then
+                    Else
+                        sendMessage("Year has to be entered 4 digits", "Error: Year")
+                        txtBox.SelectAll()
+                        txtBox.Focus()
+                    End If
                 End If
-
             Else
                 txtBox.SelectAll()
                 txtBox.Focus()
@@ -139,8 +137,10 @@ Public Class frmStockMaintenance
             Else
                 mbmOneCar.EndCurrentEdit()
                 mobjClsData.updateOneCar(mdsSingleCar)
-                Me.Close()
+
             End If
+
+            Me.Close()
         Catch ex As Exception
             sendMessage(ex.Message, "Error: btnUpdate_Click")
         End Try
