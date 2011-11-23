@@ -177,7 +177,7 @@ Partial Class frmFrame
         '
         Me.EstimateToolStripMenuItem1.Image = CType(resources.GetObject("EstimateToolStripMenuItem1.Image"), System.Drawing.Image)
         Me.EstimateToolStripMenuItem1.Name = "EstimateToolStripMenuItem1"
-        Me.EstimateToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.EstimateToolStripMenuItem1.Size = New System.Drawing.Size(141, 22)
         Me.EstimateToolStripMenuItem1.Text = "Estimate"
         '
         'ServiceToolStripMenuItem1
@@ -191,7 +191,7 @@ Partial Class frmFrame
         '
         Me.CarWashToolStripMenuItem1.Image = CType(resources.GetObject("CarWashToolStripMenuItem1.Image"), System.Drawing.Image)
         Me.CarWashToolStripMenuItem1.Name = "CarWashToolStripMenuItem1"
-        Me.CarWashToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.CarWashToolStripMenuItem1.Size = New System.Drawing.Size(141, 22)
         Me.CarWashToolStripMenuItem1.Text = "Car Wash"
         '
         'CommissionToolStripMenuItem1

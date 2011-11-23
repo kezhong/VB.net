@@ -20,27 +20,27 @@ Partial Class frmVBAuto
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.grbPersonInfo = New System.Windows.Forms.GroupBox
-        Me.Label5 = New System.Windows.Forms.Label
-        Me.Label6 = New System.Windows.Forms.Label
-        Me.Label7 = New System.Windows.Forms.Label
-        Me.lblID = New System.Windows.Forms.Label
-        Me.lblName = New System.Windows.Forms.Label
-        Me.lblCode = New System.Windows.Forms.Label
-        Me.btnPrevious = New System.Windows.Forms.Button
         Me.btnNext = New System.Windows.Forms.Button
+        Me.btnPrevious = New System.Windows.Forms.Button
+        Me.lblCode = New System.Windows.Forms.Label
+        Me.lblName = New System.Windows.Forms.Label
+        Me.lblID = New System.Windows.Forms.Label
+        Me.Label7 = New System.Windows.Forms.Label
+        Me.Label6 = New System.Windows.Forms.Label
+        Me.Label5 = New System.Windows.Forms.Label
         Me.grbInfo = New System.Windows.Forms.GroupBox
-        Me.Label8 = New System.Windows.Forms.Label
-        Me.Label9 = New System.Windows.Forms.Label
-        Me.Label10 = New System.Windows.Forms.Label
-        Me.Label11 = New System.Windows.Forms.Label
-        Me.Label12 = New System.Windows.Forms.Label
-        Me.cmbStock = New System.Windows.Forms.ComboBox
-        Me.txtDescription = New System.Windows.Forms.TextBox
-        Me.txtCostPrice = New System.Windows.Forms.TextBox
-        Me.txtRetailPrice = New System.Windows.Forms.TextBox
-        Me.lblCommission = New System.Windows.Forms.Label
-        Me.btnCalculate = New System.Windows.Forms.Button
         Me.btnView = New System.Windows.Forms.Button
+        Me.btnCalculate = New System.Windows.Forms.Button
+        Me.lblCommission = New System.Windows.Forms.Label
+        Me.txtRetailPrice = New System.Windows.Forms.TextBox
+        Me.txtCostPrice = New System.Windows.Forms.TextBox
+        Me.txtDescription = New System.Windows.Forms.TextBox
+        Me.cmbStock = New System.Windows.Forms.ComboBox
+        Me.Label12 = New System.Windows.Forms.Label
+        Me.Label11 = New System.Windows.Forms.Label
+        Me.Label10 = New System.Windows.Forms.Label
+        Me.Label9 = New System.Windows.Forms.Label
+        Me.Label8 = New System.Windows.Forms.Label
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.grbPersonInfo.SuspendLayout()
         Me.grbInfo.SuspendLayout()
@@ -56,19 +56,22 @@ Partial Class frmVBAuto
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(368, 548)
+        Me.btnExit.Location = New System.Drawing.Point(368, 549)
         '
         'Label2
         '
         Me.Label2.Location = New System.Drawing.Point(87, 546)
+        Me.Label2.Size = New System.Drawing.Size(350, 2)
         '
         'Label3
         '
         Me.Label3.Location = New System.Drawing.Point(87, 557)
+        Me.Label3.Size = New System.Drawing.Size(300, 2)
         '
         'Label4
         '
         Me.Label4.Location = New System.Drawing.Point(87, 569)
+        Me.Label4.Size = New System.Drawing.Size(300, 2)
         '
         'grbPersonInfo
         '
@@ -87,56 +90,14 @@ Partial Class frmVBAuto
         Me.grbPersonInfo.TabStop = False
         Me.grbPersonInfo.Text = "Sales Person Info"
         '
-        'Label5
+        'btnNext
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(34, 20)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(89, 13)
-        Me.Label5.TabIndex = 0
-        Me.Label5.Text = "Sales Person ID: "
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(37, 55)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(106, 13)
-        Me.Label6.TabIndex = 1
-        Me.Label6.Text = "Sales Person Name: "
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(40, 92)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(69, 13)
-        Me.Label7.TabIndex = 2
-        Me.Label7.Text = "Dealer Code:"
-        '
-        'lblID
-        '
-        Me.lblID.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblID.Location = New System.Drawing.Point(165, 20)
-        Me.lblID.Name = "lblID"
-        Me.lblID.Size = New System.Drawing.Size(189, 23)
-        Me.lblID.TabIndex = 3
-        '
-        'lblName
-        '
-        Me.lblName.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblName.Location = New System.Drawing.Point(165, 55)
-        Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(189, 23)
-        Me.lblName.TabIndex = 4
-        '
-        'lblCode
-        '
-        Me.lblCode.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblCode.Location = New System.Drawing.Point(165, 92)
-        Me.lblCode.Name = "lblCode"
-        Me.lblCode.Size = New System.Drawing.Size(189, 23)
-        Me.lblCode.TabIndex = 5
+        Me.btnNext.Location = New System.Drawing.Point(279, 138)
+        Me.btnNext.Name = "btnNext"
+        Me.btnNext.Size = New System.Drawing.Size(75, 23)
+        Me.btnNext.TabIndex = 7
+        Me.btnNext.Text = "Next"
+        Me.btnNext.UseVisualStyleBackColor = True
         '
         'btnPrevious
         '
@@ -147,14 +108,56 @@ Partial Class frmVBAuto
         Me.btnPrevious.Text = "Previous"
         Me.btnPrevious.UseVisualStyleBackColor = True
         '
-        'btnNext
+        'lblCode
         '
-        Me.btnNext.Location = New System.Drawing.Point(279, 138)
-        Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(75, 23)
-        Me.btnNext.TabIndex = 7
-        Me.btnNext.Text = "Next"
-        Me.btnNext.UseVisualStyleBackColor = True
+        Me.lblCode.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblCode.Location = New System.Drawing.Point(165, 92)
+        Me.lblCode.Name = "lblCode"
+        Me.lblCode.Size = New System.Drawing.Size(189, 23)
+        Me.lblCode.TabIndex = 5
+        '
+        'lblName
+        '
+        Me.lblName.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblName.Location = New System.Drawing.Point(165, 55)
+        Me.lblName.Name = "lblName"
+        Me.lblName.Size = New System.Drawing.Size(189, 23)
+        Me.lblName.TabIndex = 4
+        '
+        'lblID
+        '
+        Me.lblID.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblID.Location = New System.Drawing.Point(165, 20)
+        Me.lblID.Name = "lblID"
+        Me.lblID.Size = New System.Drawing.Size(189, 23)
+        Me.lblID.TabIndex = 3
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(40, 92)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(69, 13)
+        Me.Label7.TabIndex = 2
+        Me.Label7.Text = "Dealer Code:"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(37, 55)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(106, 13)
+        Me.Label6.TabIndex = 1
+        Me.Label6.Text = "Sales Person Name: "
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(34, 20)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(89, 13)
+        Me.Label5.TabIndex = 0
+        Me.Label5.Text = "Sales Person ID: "
         '
         'grbInfo
         '
@@ -177,87 +180,14 @@ Partial Class frmVBAuto
         Me.grbInfo.TabStop = False
         Me.grbInfo.Text = "Stock Information"
         '
-        'Label8
+        'btnView
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(40, 37)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(48, 13)
-        Me.Label8.TabIndex = 0
-        Me.Label8.Text = "Stock #:"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(40, 71)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(63, 13)
-        Me.Label9.TabIndex = 1
-        Me.Label9.Text = "Description:"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(40, 106)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(58, 13)
-        Me.Label10.TabIndex = 2
-        Me.Label10.Text = "Cost Price:"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(40, 136)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(64, 13)
-        Me.Label11.TabIndex = 3
-        Me.Label11.Text = "Retail Price:"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(40, 172)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(65, 13)
-        Me.Label12.TabIndex = 4
-        Me.Label12.Text = "Commission:"
-        '
-        'cmbStock
-        '
-        Me.cmbStock.FormattingEnabled = True
-        Me.cmbStock.Location = New System.Drawing.Point(126, 34)
-        Me.cmbStock.Name = "cmbStock"
-        Me.cmbStock.Size = New System.Drawing.Size(121, 21)
-        Me.cmbStock.TabIndex = 5
-        '
-        'txtDescription
-        '
-        Me.txtDescription.Location = New System.Drawing.Point(126, 71)
-        Me.txtDescription.Name = "txtDescription"
-        Me.txtDescription.Size = New System.Drawing.Size(121, 20)
-        Me.txtDescription.TabIndex = 6
-        '
-        'txtCostPrice
-        '
-        Me.txtCostPrice.Location = New System.Drawing.Point(126, 105)
-        Me.txtCostPrice.Name = "txtCostPrice"
-        Me.txtCostPrice.Size = New System.Drawing.Size(121, 20)
-        Me.txtCostPrice.TabIndex = 7
-        '
-        'txtRetailPrice
-        '
-        Me.txtRetailPrice.Location = New System.Drawing.Point(126, 134)
-        Me.txtRetailPrice.Name = "txtRetailPrice"
-        Me.txtRetailPrice.Size = New System.Drawing.Size(121, 20)
-        Me.txtRetailPrice.TabIndex = 8
-        '
-        'lblCommission
-        '
-        Me.lblCommission.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblCommission.Location = New System.Drawing.Point(126, 172)
-        Me.lblCommission.Name = "lblCommission"
-        Me.lblCommission.Size = New System.Drawing.Size(121, 23)
-        Me.lblCommission.TabIndex = 9
+        Me.btnView.Location = New System.Drawing.Point(230, 212)
+        Me.btnView.Name = "btnView"
+        Me.btnView.Size = New System.Drawing.Size(75, 23)
+        Me.btnView.TabIndex = 11
+        Me.btnView.Text = "View Comm"
+        Me.btnView.UseVisualStyleBackColor = True
         '
         'btnCalculate
         '
@@ -268,14 +198,90 @@ Partial Class frmVBAuto
         Me.btnCalculate.Text = "Calculate"
         Me.btnCalculate.UseVisualStyleBackColor = True
         '
-        'btnView
+        'lblCommission
         '
-        Me.btnView.Location = New System.Drawing.Point(230, 212)
-        Me.btnView.Name = "btnView"
-        Me.btnView.Size = New System.Drawing.Size(75, 23)
-        Me.btnView.TabIndex = 11
-        Me.btnView.Text = "View Comm"
-        Me.btnView.UseVisualStyleBackColor = True
+        Me.lblCommission.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblCommission.Location = New System.Drawing.Point(126, 168)
+        Me.lblCommission.Name = "lblCommission"
+        Me.lblCommission.Size = New System.Drawing.Size(121, 23)
+        Me.lblCommission.TabIndex = 9
+        Me.lblCommission.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'txtRetailPrice
+        '
+        Me.txtRetailPrice.Location = New System.Drawing.Point(126, 134)
+        Me.txtRetailPrice.Name = "txtRetailPrice"
+        Me.txtRetailPrice.Size = New System.Drawing.Size(121, 20)
+        Me.txtRetailPrice.TabIndex = 8
+        Me.txtRetailPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'txtCostPrice
+        '
+        Me.txtCostPrice.Location = New System.Drawing.Point(126, 105)
+        Me.txtCostPrice.Name = "txtCostPrice"
+        Me.txtCostPrice.Size = New System.Drawing.Size(121, 20)
+        Me.txtCostPrice.TabIndex = 7
+        Me.txtCostPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'txtDescription
+        '
+        Me.txtDescription.Location = New System.Drawing.Point(126, 71)
+        Me.txtDescription.Name = "txtDescription"
+        Me.txtDescription.Size = New System.Drawing.Size(121, 20)
+        Me.txtDescription.TabIndex = 6
+        '
+        'cmbStock
+        '
+        Me.cmbStock.FormattingEnabled = True
+        Me.cmbStock.Location = New System.Drawing.Point(126, 34)
+        Me.cmbStock.Name = "cmbStock"
+        Me.cmbStock.Size = New System.Drawing.Size(121, 21)
+        Me.cmbStock.TabIndex = 5
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(40, 172)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(65, 13)
+        Me.Label12.TabIndex = 4
+        Me.Label12.Text = "Commission:"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(40, 136)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(64, 13)
+        Me.Label11.TabIndex = 3
+        Me.Label11.Text = "Retail Price:"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(40, 106)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(58, 13)
+        Me.Label10.TabIndex = 2
+        Me.Label10.Text = "Cost Price:"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(40, 71)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(63, 13)
+        Me.Label9.TabIndex = 1
+        Me.Label9.Text = "Description:"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(40, 37)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(48, 13)
+        Me.Label8.TabIndex = 0
+        Me.Label8.Text = "Stock #:"
         '
         'frmVBAuto
         '
@@ -284,6 +290,7 @@ Partial Class frmVBAuto
         Me.Controls.Add(Me.grbInfo)
         Me.Controls.Add(Me.grbPersonInfo)
         Me.Name = "frmVBAuto"
+        Me.Text = "VB Auto Commission"
         Me.Controls.SetChildIndex(Me.Label2, 0)
         Me.Controls.SetChildIndex(Me.Label3, 0)
         Me.Controls.SetChildIndex(Me.Label4, 0)

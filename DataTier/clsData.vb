@@ -120,7 +120,7 @@ Public Class clsData
             mdaAllUsedcars.SelectCommand.CommandText = _
             "SELECT * FROM UsedCars"
 
-            mdaAllUsedcars.Fill(mdsAllUsedCars, "AllUsedCards")
+            mdaAllUsedcars.Fill(mdsAllUsedCars, "UsedCars")
 
             mcmdAllCars = New OleDbCommandBuilder(mdaAllUsedcars)
 

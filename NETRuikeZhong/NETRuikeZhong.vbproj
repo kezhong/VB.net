@@ -103,6 +103,12 @@
     <Compile Include="frmService.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmStockMaintenance.Designer.vb">
+      <DependentUpon>frmStockMaintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStockMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmSummary.Designer.vb">
       <DependentUpon>frmSummary.vb</DependentUpon>
     </Compile>
@@ -191,6 +197,9 @@
   <ItemGroup>
     <EmbeddedResource Include="frmCommission.resx">
       <DependentUpon>frmCommission.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStockMaintenance.resx">
+      <DependentUpon>frmStockMaintenance.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmVBAuto.resx">
       <DependentUpon>frmVBAuto.vb</DependentUpon>

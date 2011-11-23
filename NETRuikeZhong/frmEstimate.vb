@@ -305,4 +305,6 @@ Handles txtCarPrice.Leave, _
         'MessageBox.Show(strMessage, "Summary of Accepted Quotes", MessageBoxButtons.OK, MessageBoxIcon.Information)
         sendMessage(strMessage, "Summary of Accepted Quotes")
     End Sub
+
+
 End Class

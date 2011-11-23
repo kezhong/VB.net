@@ -77,4 +77,12 @@
         frmCarWashInstance.MdiParent = Me
         frmCarWashInstance.Show()
     End Sub
+
+    Private Sub CommissionToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) _
+            Handles CommissionToolStripMenuItem1.Click, CommissionToolStripMenuItem.Click
+        Dim frmVBAutoInstance As New frmVBAuto
+        frmVBAutoInstance.MdiParent = Me
+        frmVBAutoInstance.Show()
+    End Sub
+
 End Class

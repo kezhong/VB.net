@@ -228,8 +228,7 @@ Public Class frmCarWash
         'appending the name of the selected Fragrance to 
         'the first item E.g."Fragrance - Pine"
         lstInterior.Items.RemoveAt(0)
-        strExteior = mstrInteriorContent(0) & _
-        " - " & cboFragrance.SelectedItem
+        strExteior = mstrInteriorContent(0) & " - " & cboFragrance.SelectedItem
         lstInterior.Items.Insert(0, strExteior)
 
         'create an instance fo clsCharges
