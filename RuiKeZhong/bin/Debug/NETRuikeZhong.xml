@@ -6,7 +6,59 @@ NETRuikeZhong
 </name>
 </assembly>
 <members>
-<member name="M:NETRuikeZhong.frmEstimate.chkAll_CheckedChanged(System.Object,System.EventArgs)">
+<member name="T:NETRuikeZhong.dsCommission.CommissionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:NETRuikeZhong.dsCommission.CommissionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:NETRuikeZhong.dsCommission.CommissionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:NETRuikeZhong.dsCommission">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:NETRuikeZhong.dsCommissionTableAdapters.CommissionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:NETRuikeZhong.dsCommissionTableAdapters.TableAdapterManager.UpdateUpdatedRows(NETRuikeZhong.dsCommission,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:NETRuikeZhong.dsCommissionTableAdapters.TableAdapterManager.UpdateInsertedRows(NETRuikeZhong.dsCommission,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:NETRuikeZhong.dsCommissionTableAdapters.TableAdapterManager.UpdateDeletedRows(NETRuikeZhong.dsCommission,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:NETRuikeZhong.dsCommissionTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:NETRuikeZhong.dsCommissionTableAdapters.TableAdapterManager.UpdateAll(NETRuikeZhong.dsCommission)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:NETRuikeZhong.dsCommissionTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:NETRuikeZhong.dsCommissionTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:NETRuikeZhong.dsCommissionTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="M:NETRuikeZhong.frmEstimate.chkAll_CheckedChanged(System.Object,System.EventArgs)">
 	<summary>
  CheckBoxes control
  </summary>
@@ -81,6 +133,22 @@ Enable/disable the Clear and Calculate context menu item
 </member><member name="M:NETRuikeZhong.frmService.ctxCalculate_Click(System.Object,System.EventArgs)">
 	<summary>
  Creat a instance of clsService and display data
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmStockMaintenance.txtBoxes_LeaveChanged(System.Object,System.EventArgs)">
+	<summary>
+ Create a shared event procedure which will validate all 
+ TextBoxes when the user tabs or clicks out of the control (Leave event)
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmStockMaintenance.btnUpdate_Click(System.Object,System.EventArgs)">
+	<summary>
+ Code script for the Update Button to update the UsedCars
+  table in the VBAutoSales.mdb database with the information currently displayed
  </summary>
 	<param name="sender"></param>
 	<param name="e"></param>
@@ -195,6 +263,10 @@ Luxury.
  </summary>
 	<param name="sender"></param>
 	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:NETRuikeZhong.frmVBAuto.bindData">
+	<summary>
+	</summary>
 	<remarks></remarks>
 </member><member name="M:NETRuikeZhong.frmCarWash.readFiles(System.String)">
 	<summary>

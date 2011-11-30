@@ -85,4 +85,11 @@
         frmVBAutoInstance.Show()
     End Sub
 
+    Private Sub ReportsToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) _
+    Handles ReportsToolStripMenuItem1.Click, ReportsToolStripMenuItem.Click
+        Dim frmReportInstance As New frmReport
+        frmReportInstance.MdiParent = Me
+        frmReportInstance.Show()
+    End Sub
+
 End Class

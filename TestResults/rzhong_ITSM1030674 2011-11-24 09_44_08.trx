@@ -1,0 +1,1051 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c58de58a-a629-44e6-985c-c284aa425974" name="rzhong@ITSM1030674 2011-11-24 09:44:08" runUser="ACADEMIC\rzhong" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="c42c55b2-03a0-4cde-a9da-4bdc707620e0">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\TestResults\rzhong_ITSM1030674 2011-11-24 09_44_08">
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\BusinessTier\bin\Debug\BusinessTier.dll" />
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\DataTier\bin\Debug\DataTier.dll" />
+      <DeploymentItem filename="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\NETRuikeZhong\bin\Debug\NETRuikeZhong.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="61" executed="61" passed="49" error="0" failed="12" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-11-24T09:44:08.2792111-06:00" queuing="2011-11-24T09:44:09.5563388-06:00" start="2011-11-24T09:44:09.8133645-06:00" finish="2011-11-24T09:44:12.1555987-06:00" />
+  <TestDefinitions>
+    <UnitTest name="chkAll6_CheckedChangedTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="5ba48c3d-2b0c-66f7-5ed7-5c5364a4f7e1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="decdb05e-4169-465f-9942-59bbdc2af2cd" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="chkAll6_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="chkAll1_CheckedChangedTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="be5b9674-3f7d-b7e3-c16a-087ebdb5cccb">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="c7d22843-23ef-4b16-89d2-653ba5abf9d6" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="chkAll1_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="PricesTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="1dfdc90b-7b0a-c04a-902d-157c16702053">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9b6cfd3f-4ecc-41c6-81af-ca3d7945867a" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsServiceTest, RuiKeZhong" name="PricesTest" />
+    </UnitTest>
+    <UnitTest name="getAllCarsTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="c3f20557-d860-2dd9-1326-05b46560db5f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f4f965ae-3686-4a21-bc00-668294395160" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsDataTest, RuiKeZhong" name="getAllCarsTest" />
+    </UnitTest>
+    <UnitTest name="getFragIndexTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="11e5a7ba-2a82-bb87-b441-fc5937592388">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="5a303ba7-9485-47ee-a745-ed021f1442c5" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmCarWashTest, RuiKeZhong" name="getFragIndexTest" />
+    </UnitTest>
+    <UnitTest name="readFilesTest4" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="8713296a-a4c7-f1f7-e8c6-967ba0060265">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="46447147-60f1-44f2-953d-1adac7d1313b" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmCarWashTest, RuiKeZhong" name="readFilesTest4" />
+    </UnitTest>
+    <UnitTest name="calculateTest4" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="19fb3805-1055-bdd3-fe2f-0a340efefa9c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="80774fab-a1e1-4e06-856f-5f54e5a3cbcb" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="calculateTest4" />
+    </UnitTest>
+    <UnitTest name="refreshDataTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="5bcd68bf-d6e8-995f-c6a4-ad5d0273ca79">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="2763f486-76c3-4b93-bc6c-bbfa11ec8f4b" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmVBAutoTest, RuiKeZhong" name="refreshDataTest" />
+    </UnitTest>
+    <UnitTest name="radStandard_CheckChangedTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="ed8cb08f-c6af-7bb7-0406-21450f0be211">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="82becd30-f9f1-416f-a52c-fb50220aec9f" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="radStandard_CheckChangedTest" />
+    </UnitTest>
+    <UnitTest name="calculateTest5" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="da4998a6-2996-5385-0265-51dd6a3aa8fd">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="e3cec8a8-f9fa-4b51-87bf-802866fe3e1b" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="calculateTest5" />
+    </UnitTest>
+    <UnitTest name="updateOneCarTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="f312c311-fd42-ece7-e845-ace20316a2ca">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bd9a110f-e4da-4d89-9390-e4b7b5bac0a9" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsDataTest, RuiKeZhong" name="updateOneCarTest" />
+    </UnitTest>
+    <UnitTest name="resetFragTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="9cac364e-870f-8fb8-c193-31c85489ef4a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="65fd0677-9b36-45b4-907d-bf83c19d0fc2" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmCarWashTest, RuiKeZhong" name="resetFragTest" />
+    </UnitTest>
+    <UnitTest name="readFilesTest2" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="1d839eca-a7b2-c9a3-97ea-9766de28e797">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="9945ec47-89db-4ac1-8366-a8f5f6ad76df" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmCarWashTest, RuiKeZhong" name="readFilesTest2" />
+    </UnitTest>
+    <UnitTest name="getFragIndexTest1" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="581aabed-d3f4-41e9-5a3f-79102315492a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="00466378-a317-400c-868d-1d3c4efd6193" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmCarWashTest, RuiKeZhong" name="getFragIndexTest1" />
+    </UnitTest>
+    <UnitTest name="validateNumericTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="c753e863-3a1c-251e-6373-af1e456874fe">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="4f573534-bd42-4ec8-a063-05f6a7d0f881" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmBaseTest, RuiKeZhong" name="validateNumericTest" />
+    </UnitTest>
+    <UnitTest name="chkAll3_CheckedChangedTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="068b7cce-0087-6a06-c9de-330961f0d6c9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="b0b355f5-b98c-40d8-b94b-54fa4535bab5" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="chkAll3_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="chkAll4_CheckedChangedTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="6cc3610b-f206-5d62-96a8-c2a370b8812e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="ab3b2e47-5ab8-4c83-83dc-35e8e1d6649d" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="chkAll4_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="CostPriceTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="e2e34883-a549-f5ff-27dc-024d5f908f43">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="96aa9c35-6127-4a98-aedf-c3ff04a1a84c" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsCommissionTest, RuiKeZhong" name="CostPriceTest" />
+    </UnitTest>
+    <UnitTest name="PartsTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="bd2f16e9-c880-0847-a49f-4f7e109d08a7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2778e841-9b84-4641-b9a9-fa69e4ada85f" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsServiceTest, RuiKeZhong" name="PartsTest" />
+    </UnitTest>
+    <UnitTest name="readFilesTest1" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="a3ba2455-6db9-d5ad-4b1a-d3631cf101a9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="aa5d19a6-7660-4952-ae51-7b79f41f7f4c" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmCarWashTest, RuiKeZhong" name="readFilesTest1" />
+    </UnitTest>
+    <UnitTest name="chkAll7_CheckedChangedTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="da151202-8508-6e92-4e59-68261f0ab2b5">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="299fc6a6-c2b0-4b1c-8fec-fe99608ec765" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="chkAll7_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="updateCommissionTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="961983b1-9ee3-6fbb-3ad2-ba49acea8809">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="403f01db-6e71-4759-86f5-1787dc9fb55e" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsDataTest, RuiKeZhong" name="updateCommissionTest" />
+    </UnitTest>
+    <UnitTest name="clsServiceConstructorTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="1be43b9d-0c70-576d-389c-292e846fa8ae">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4384da8f-f7cf-40b7-99e3-7029059eae3c" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsServiceTest, RuiKeZhong" name="clsServiceConstructorTest" />
+    </UnitTest>
+    <UnitTest name="CalculatedPSTTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="f4d016e0-a0db-b4bf-9a7f-a814aa3560e4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ba56d0b2-6024-4d80-a877-a1a208fdd27c" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsServiceTest, RuiKeZhong" name="CalculatedPSTTest" />
+    </UnitTest>
+    <UnitTest name="getOneCarTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="7b5035e3-6d69-7df6-0a8d-91d3f6a850fb">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5be9dab1-1ff1-4dee-91a1-8fcfc4526343" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsDataTest, RuiKeZhong" name="getOneCarTest" />
+    </UnitTest>
+    <UnitTest name="chkAll2_CheckedChangedTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="9f4bca4e-e332-6631-db4b-c15534c1e5fa">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="6de191c4-770c-4e41-9482-611ce84b6d95" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="chkAll2_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="updateNewCarTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="237bda40-fa0b-3f6a-1f90-191e192a1943">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="99374b8a-c6f6-4096-b189-1cb4e8c52954" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsDataTest, RuiKeZhong" name="updateNewCarTest" />
+    </UnitTest>
+    <UnitTest name="calculateTest3" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="a1469517-8b0f-a4e6-c599-61ee6e4b9ef4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="efeda2a5-1b5a-4077-97fe-b7e2ff9157f1" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="calculateTest3" />
+    </UnitTest>
+    <UnitTest name="txtBoxes_LeaveTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="380c438f-e1ee-4aa4-db68-69dba114b2e9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="5bcbc714-97e4-4950-ad10-5db076ab20f8" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmServiceTest, RuiKeZhong" name="txtBoxes_LeaveTest" />
+    </UnitTest>
+    <UnitTest name="calCommissionTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="18280568-773e-d290-7279-fa9669c35aa1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e81eaf6e-d639-4aa5-a440-2833f94b7fcc" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsCommissionTest, RuiKeZhong" name="calCommissionTest" />
+    </UnitTest>
+    <UnitTest name="CalculatedGSTTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="82fcbd2b-41e4-f2ea-3380-81e7c264218f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="586914ad-6e7b-4a42-bd3f-17b78787dee0" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsServiceTest, RuiKeZhong" name="CalculatedGSTTest" />
+    </UnitTest>
+    <UnitTest name="chkAll5_CheckedChangedTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="94bd8884-25a5-3f10-21d5-c49d227cc7f7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="9176b650-444f-44a2-b004-bee99ba1c08c" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="chkAll5_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="clearTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="5e835c18-3baa-ac01-c482-cdff006f007c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="58bc08e8-4854-4ae3-8e0d-e9dea61cb42e" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="clearTest" />
+    </UnitTest>
+    <UnitTest name="clsChargesConstructorTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="b37f24f7-2292-a6d2-6fa9-86c88d25d4e3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="80cb8f45-8152-4ff7-a615-6001be6ed2f2" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsChargesTest, RuiKeZhong" name="clsChargesConstructorTest" />
+    </UnitTest>
+    <UnitTest name="calculateTest2" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="e085a9d6-f5f4-a6a2-9baf-636d59fb690a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="660b0917-47ae-490b-8644-d9653eb222fe" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="calculateTest2" />
+    </UnitTest>
+    <UnitTest name="quoteTest2" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="5aa18ada-74b4-3acb-c9c7-a3d98efe76be">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="38727e4e-838e-4145-b7c9-07445e745d2f" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="quoteTest2" />
+    </UnitTest>
+    <UnitTest name="frmSummary_LoadTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="eda01f2f-f0ec-2cd5-23ec-104379082086">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="5f98ea55-4e94-4e70-a839-5efe5d280a1f" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmSummaryTest, RuiKeZhong" name="frmSummary_LoadTest" />
+    </UnitTest>
+    <UnitTest name="radCustomizedDetailing_CheckChangedTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="65c95b68-bf0e-4c63-cd35-3ea2d14c73a1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="80ec35de-ae32-4fc3-a5e0-f56bb0653f76" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="radCustomizedDetailing_CheckChangedTest" />
+    </UnitTest>
+    <UnitTest name="connectTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="39c46d6d-5960-ba44-9515-70fc26346f95">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6e0ce04c-fae3-43f2-a211-4b7cd8cecbe4" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsDataTest, RuiKeZhong" name="connectTest" />
+    </UnitTest>
+    <UnitTest name="enableFinanceTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="135c9bd2-bbe6-d141-c666-348532b334ff">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="cbd1dc54-a7f6-436a-a3a6-fec5be48d5c2" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="enableFinanceTest" />
+    </UnitTest>
+    <UnitTest name="radPearlized_CheckChangedTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="cf09ca18-95f8-e8be-e036-bb14751e3db3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="e098570c-4b81-477b-9f3d-fdb2a012452a" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="radPearlized_CheckChangedTest" />
+    </UnitTest>
+    <UnitTest name="enableFinanceTest1" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="4c9e8bdd-5863-4599-9563-d87848e8ba63">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="30a1064e-89c5-4c20-a4ba-a8e5bc0b9d17" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="enableFinanceTest1" />
+    </UnitTest>
+    <UnitTest name="calcAMountTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="0f0b88f1-ad5d-9fbe-e3e1-a28001387174">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6ef928a4-f855-4898-befd-43ac73e72435" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsServiceTest, RuiKeZhong" name="calcAMountTest" />
+    </UnitTest>
+    <UnitTest name="getCommissionTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="950cebad-c541-8a83-c710-f78c76cb02a1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5f06f9d0-896e-413a-9e30-4994e866352f" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsDataTest, RuiKeZhong" name="getCommissionTest" />
+    </UnitTest>
+    <UnitTest name="calculateTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="b130a796-a9ad-c5d3-a208-e46f23df58ed">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="ae49f5bf-4c6e-460e-9910-18ef5f10ab6c" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="calculateTest" />
+    </UnitTest>
+    <UnitTest name="clearTest2" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="4190b940-5e71-a45d-a273-6637047d685e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="c1232fd0-9ac5-4c08-a847-d183c765d87c" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="clearTest2" />
+    </UnitTest>
+    <UnitTest name="averageContractTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="81544419-160f-c490-48af-02645c813af4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6d83241e-e2c5-46ec-9de1-914db515897f" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsServiceTest, RuiKeZhong" name="averageContractTest" />
+    </UnitTest>
+    <UnitTest name="RetailPriceTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="8502cd2c-2b2f-95ad-e5d8-9fa45bd31aca">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a09613c0-7cc2-4c6d-a596-110f2092e3f6" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsCommissionTest, RuiKeZhong" name="RetailPriceTest" />
+    </UnitTest>
+    <UnitTest name="ctxClear_ClickTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="867cf857-2d2c-385b-4091-bb0b3018f2f3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="ea0ae0f6-5ec4-4bf3-b873-4e649910689e" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmServiceTest, RuiKeZhong" name="ctxClear_ClickTest" />
+    </UnitTest>
+    <UnitTest name="clsCommissionConstructorTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="47165c42-1282-701c-d2f0-028ce820ebd6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e1496a35-5a4b-4065-9bea-e5a6dae268e3" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsCommissionTest, RuiKeZhong" name="clsCommissionConstructorTest" />
+    </UnitTest>
+    <UnitTest name="getSalesStaffTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="30699273-e5a2-e865-6d64-d25d09732721">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="26dc8911-0a32-4fbc-a4dc-dc5dd3492a44" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsDataTest, RuiKeZhong" name="getSalesStaffTest" />
+    </UnitTest>
+    <UnitTest name="ctxClear_ClickTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="af10c53a-f53e-6f45-bac1-67184954a410">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="64c2395b-34e7-4006-bc8f-d0da38f3fbcb" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="ctxClear_ClickTest" />
+    </UnitTest>
+    <UnitTest name="clsServiceConstructorTest1" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="4a50e694-61e1-1ae0-dd41-0351984043b6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7fb9d990-3cd6-4948-a915-498403f15f18" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsServiceTest, RuiKeZhong" name="clsServiceConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="readFilesTest5" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="de299746-f64b-2662-ab94-be40c31e0c4b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="a48eb41d-9bcc-40c6-a162-83c5a0cbfb0f" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmCarWashTest, RuiKeZhong" name="readFilesTest5" />
+    </UnitTest>
+    <UnitTest name="txtBoxes_LeaveTest1" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="b159430b-1382-19e1-f9fb-29be75554220">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="f5ce0a72-aca5-4f37-ac2a-258ccdfd3ab1" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmServiceTest, RuiKeZhong" name="txtBoxes_LeaveTest1" />
+    </UnitTest>
+    <UnitTest name="resetFragTest1" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="dee52ec6-7bb3-3477-6d48-afbbad26fab1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="dad8460e-a69a-42ef-ab8e-ec773f403011" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmCarWashTest, RuiKeZhong" name="resetFragTest1" />
+    </UnitTest>
+    <UnitTest name="calculateTest6" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="3e99709b-51f1-1b70-031d-77d30eff8b76">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="4b0c6d44-4b74-48f4-90c9-848546d77209" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="calculateTest6" />
+    </UnitTest>
+    <UnitTest name="readFilesTest3" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="f27ebfa3-63fa-6cbb-ee78-dfb01f080dc1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="c4873196-3c32-44a8-beee-96c7bde5c123" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmCarWashTest, RuiKeZhong" name="readFilesTest3" />
+    </UnitTest>
+    <UnitTest name="MaterialsTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="99ff3c02-5c1c-c0d9-f523-81dd979ea186">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b07e68a1-86f7-45ed-8602-8d8ef4d1513d" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.clsServiceTest, RuiKeZhong" name="MaterialsTest" />
+    </UnitTest>
+    <UnitTest name="readFilesTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="d6f04e93-50d1-11e7-ed0e-4b32857cf71b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="133792ef-dd81-4461-962a-f2ccdca9cd09" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmCarWashTest, RuiKeZhong" name="readFilesTest" />
+    </UnitTest>
+    <UnitTest name="quoteTest" storage="c:\users\rzhong\desktop\adev-1002\netruikezhong\ruikezhong\bin\debug\ruikezhong.dll" id="c61b5ef8-816f-b2ea-76ca-a4c7b7bb5717">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NETRuikeZhong.exe" />
+      </DeploymentItems>
+      <Execution id="f944b1ad-baae-45c7-a08d-2574034eb62a" />
+      <TestMethod codeBase="C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\bin\Debug\RuiKeZhong.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RuiKeZhong.frmEstimateTest, RuiKeZhong" name="quoteTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b37f24f7-2292-a6d2-6fa9-86c88d25d4e3" executionId="80cb8f45-8152-4ff7-a615-6001be6ed2f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2e34883-a549-f5ff-27dc-024d5f908f43" executionId="96aa9c35-6127-4a98-aedf-c3ff04a1a84c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8502cd2c-2b2f-95ad-e5d8-9fa45bd31aca" executionId="a09613c0-7cc2-4c6d-a596-110f2092e3f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47165c42-1282-701c-d2f0-028ce820ebd6" executionId="e1496a35-5a4b-4065-9bea-e5a6dae268e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18280568-773e-d290-7279-fa9669c35aa1" executionId="e81eaf6e-d639-4aa5-a440-2833f94b7fcc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39c46d6d-5960-ba44-9515-70fc26346f95" executionId="6e0ce04c-fae3-43f2-a211-4b7cd8cecbe4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30699273-e5a2-e865-6d64-d25d09732721" executionId="26dc8911-0a32-4fbc-a4dc-dc5dd3492a44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3f20557-d860-2dd9-1326-05b46560db5f" executionId="f4f965ae-3686-4a21-bc00-668294395160" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b5035e3-6d69-7df6-0a8d-91d3f6a850fb" executionId="5be9dab1-1ff1-4dee-91a1-8fcfc4526343" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="950cebad-c541-8a83-c710-f78c76cb02a1" executionId="5f06f9d0-896e-413a-9e30-4994e866352f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="961983b1-9ee3-6fbb-3ad2-ba49acea8809" executionId="403f01db-6e71-4759-86f5-1787dc9fb55e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="237bda40-fa0b-3f6a-1f90-191e192a1943" executionId="99374b8a-c6f6-4096-b189-1cb4e8c52954" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f312c311-fd42-ece7-e845-ace20316a2ca" executionId="bd9a110f-e4da-4d89-9390-e4b7b5bac0a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd2f16e9-c880-0847-a49f-4f7e109d08a7" executionId="2778e841-9b84-4641-b9a9-fa69e4ada85f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1dfdc90b-7b0a-c04a-902d-157c16702053" executionId="9b6cfd3f-4ecc-41c6-81af-ca3d7945867a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99ff3c02-5c1c-c0d9-f523-81dd979ea186" executionId="b07e68a1-86f7-45ed-8602-8d8ef4d1513d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1be43b9d-0c70-576d-389c-292e846fa8ae" executionId="4384da8f-f7cf-40b7-99e3-7029059eae3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81544419-160f-c490-48af-02645c813af4" executionId="6d83241e-e2c5-46ec-9de1-914db515897f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f0b88f1-ad5d-9fbe-e3e1-a28001387174" executionId="6ef928a4-f855-4898-befd-43ac73e72435" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4d016e0-a0db-b4bf-9a7f-a814aa3560e4" executionId="ba56d0b2-6024-4d80-a877-a1a208fdd27c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82fcbd2b-41e4-f2ea-3380-81e7c264218f" executionId="586914ad-6e7b-4a42-bd3f-17b78787dee0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a50e694-61e1-1ae0-dd41-0351984043b6" executionId="7fb9d990-3cd6-4948-a915-498403f15f18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c753e863-3a1c-251e-6373-af1e456874fe" executionId="4f573534-bd42-4ec8-a063-05f6a7d0f881" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6f04e93-50d1-11e7-ed0e-4b32857cf71b" executionId="133792ef-dd81-4461-962a-f2ccdca9cd09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d839eca-a7b2-c9a3-97ea-9766de28e797" executionId="9945ec47-89db-4ac1-8366-a8f5f6ad76df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f27ebfa3-63fa-6cbb-ee78-dfb01f080dc1" executionId="c4873196-3c32-44a8-beee-96c7bde5c123" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3ba2455-6db9-d5ad-4b1a-d3631cf101a9" executionId="aa5d19a6-7660-4952-ae51-7b79f41f7f4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8713296a-a4c7-f1f7-e8c6-967ba0060265" executionId="46447147-60f1-44f2-953d-1adac7d1313b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de299746-f64b-2662-ab94-be40c31e0c4b" executionId="a48eb41d-9bcc-40c6-a162-83c5a0cbfb0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9cac364e-870f-8fb8-c193-31c85489ef4a" executionId="65fd0677-9b36-45b4-907d-bf83c19d0fc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dee52ec6-7bb3-3477-6d48-afbbad26fab1" executionId="dad8460e-a69a-42ef-ab8e-ec773f403011" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11e5a7ba-2a82-bb87-b441-fc5937592388" executionId="5a303ba7-9485-47ee-a745-ed021f1442c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="581aabed-d3f4-41e9-5a3f-79102315492a" executionId="00466378-a317-400c-868d-1d3c4efd6193" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed8cb08f-c6af-7bb7-0406-21450f0be211" executionId="82becd30-f9f1-416f-a52c-fb50220aec9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf09ca18-95f8-e8be-e036-bb14751e3db3" executionId="e098570c-4b81-477b-9f3d-fdb2a012452a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65c95b68-bf0e-4c63-cd35-3ea2d14c73a1" executionId="80ec35de-ae32-4fc3-a5e0-f56bb0653f76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be5b9674-3f7d-b7e3-c16a-087ebdb5cccb" executionId="c7d22843-23ef-4b16-89d2-653ba5abf9d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f4bca4e-e332-6631-db4b-c15534c1e5fa" executionId="6de191c4-770c-4e41-9482-611ce84b6d95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="068b7cce-0087-6a06-c9de-330961f0d6c9" executionId="b0b355f5-b98c-40d8-b94b-54fa4535bab5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cc3610b-f206-5d62-96a8-c2a370b8812e" executionId="ab3b2e47-5ab8-4c83-83dc-35e8e1d6649d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94bd8884-25a5-3f10-21d5-c49d227cc7f7" executionId="9176b650-444f-44a2-b004-bee99ba1c08c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ba48c3d-2b0c-66f7-5ed7-5c5364a4f7e1" executionId="decdb05e-4169-465f-9942-59bbdc2af2cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da151202-8508-6e92-4e59-68261f0ab2b5" executionId="299fc6a6-c2b0-4b1c-8fec-fe99608ec765" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af10c53a-f53e-6f45-bac1-67184954a410" executionId="64c2395b-34e7-4006-bc8f-d0da38f3fbcb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c61b5ef8-816f-b2ea-76ca-a4c7b7bb5717" executionId="f944b1ad-baae-45c7-a08d-2574034eb62a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5aa18ada-74b4-3acb-c9c7-a3d98efe76be" executionId="38727e4e-838e-4145-b7c9-07445e745d2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e835c18-3baa-ac01-c482-cdff006f007c" executionId="58bc08e8-4854-4ae3-8e0d-e9dea61cb42e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4190b940-5e71-a45d-a273-6637047d685e" executionId="c1232fd0-9ac5-4c08-a847-d183c765d87c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b130a796-a9ad-c5d3-a208-e46f23df58ed" executionId="ae49f5bf-4c6e-460e-9910-18ef5f10ab6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e085a9d6-f5f4-a6a2-9baf-636d59fb690a" executionId="660b0917-47ae-490b-8644-d9653eb222fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1469517-8b0f-a4e6-c599-61ee6e4b9ef4" executionId="efeda2a5-1b5a-4077-97fe-b7e2ff9157f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19fb3805-1055-bdd3-fe2f-0a340efefa9c" executionId="80774fab-a1e1-4e06-856f-5f54e5a3cbcb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da4998a6-2996-5385-0265-51dd6a3aa8fd" executionId="e3cec8a8-f9fa-4b51-87bf-802866fe3e1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e99709b-51f1-1b70-031d-77d30eff8b76" executionId="4b0c6d44-4b74-48f4-90c9-848546d77209" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="135c9bd2-bbe6-d141-c666-348532b334ff" executionId="cbd1dc54-a7f6-436a-a3a6-fec5be48d5c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c9e8bdd-5863-4599-9563-d87848e8ba63" executionId="30a1064e-89c5-4c20-a4ba-a8e5bc0b9d17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="867cf857-2d2c-385b-4091-bb0b3018f2f3" executionId="ea0ae0f6-5ec4-4bf3-b873-4e649910689e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="380c438f-e1ee-4aa4-db68-69dba114b2e9" executionId="5bcbc714-97e4-4950-ad10-5db076ab20f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b159430b-1382-19e1-f9fb-29be75554220" executionId="f5ce0a72-aca5-4f37-ac2a-258ccdfd3ab1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eda01f2f-f0ec-2cd5-23ec-104379082086" executionId="5f98ea55-4e94-4e70-a839-5efe5d280a1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5bcd68bf-d6e8-995f-c6a4-ad5d0273ca79" executionId="2763f486-76c3-4b93-bc6c-bbfa11ec8f4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="80cb8f45-8152-4ff7-a615-6001be6ed2f2" testId="b37f24f7-2292-a6d2-6fa9-86c88d25d4e3" testName="clsChargesConstructorTest" computerName="ITSM1030674" duration="00:00:00.0171794" startTime="2011-11-24T09:44:09.8833715-06:00" endTime="2011-11-24T09:44:10.3044136-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="96aa9c35-6127-4a98-aedf-c3ff04a1a84c" testId="e2e34883-a549-f5ff-27dc-024d5f908f43" testName="CostPriceTest" computerName="ITSM1030674" duration="00:00:00.0010393" startTime="2011-11-24T09:44:10.3104142-06:00" endTime="2011-11-24T09:44:10.3144146-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a09613c0-7cc2-4c6d-a596-110f2092e3f6" testId="8502cd2c-2b2f-95ad-e5d8-9fa45bd31aca" testName="RetailPriceTest" computerName="ITSM1030674" duration="00:00:00.0004589" startTime="2011-11-24T09:44:10.3184150-06:00" endTime="2011-11-24T09:44:10.3214153-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e1496a35-5a4b-4065-9bea-e5a6dae268e3" testId="47165c42-1282-701c-d2f0-028ce820ebd6" testName="clsCommissionConstructorTest" computerName="ITSM1030674" duration="00:00:00.0005470" startTime="2011-11-24T09:44:10.3254157-06:00" endTime="2011-11-24T09:44:10.3284160-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e81eaf6e-d639-4aa5-a440-2833f94b7fcc" testId="18280568-773e-d290-7279-fa9669c35aa1" testName="calCommissionTest" computerName="ITSM1030674" duration="00:00:00.0005876" startTime="2011-11-24T09:44:10.3324164-06:00" endTime="2011-11-24T09:44:10.3354167-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6e0ce04c-fae3-43f2-a211-4b7cd8cecbe4" testId="39c46d6d-5960-ba44-9515-70fc26346f95" testName="connectTest" computerName="ITSM1030674" duration="00:00:00.1188929" startTime="2011-11-24T09:44:10.3394171-06:00" endTime="2011-11-24T09:44:10.4614293-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RuiKeZhong.clsDataTest.connectTest threw exception:  System.Data.OleDb.OleDbException: 'C:\Users\rzhong\Desktop\NETRuikeZhong\NETRuikeZhong\bin\Debug\VBAutoSales_BACKUP.mdb' is not a valid path.  Make sure that the path name is spelled correctly and that you are connected to the server on which the file resides..</Message>
+          <StackTrace>    at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at RuiKeZhong.clsDataTest.connectTest() in C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\clsDataTest.vb:line 103
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="26dc8911-0a32-4fbc-a4dc-dc5dd3492a44" testId="30699273-e5a2-e865-6d64-d25d09732721" testName="getSalesStaffTest" computerName="ITSM1030674" duration="00:00:00.0495259" startTime="2011-11-24T09:44:10.4704302-06:00" endTime="2011-11-24T09:44:10.5254357-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RuiKeZhong.clsDataTest.getSalesStaffTest threw exception:  System.InvalidOperationException: Fill: SelectCommand.Connection property has not been initialized..</Message>
+          <StackTrace>    at System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at DataTier.clsData.getSalesStaff() in C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\clsData.vb:line 105
+   at DataTier.clsData_Accessor.getSalesStaff()
+   at RuiKeZhong.clsDataTest.getSalesStaffTest() in C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\clsDataTest.vb:line 122
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f4f965ae-3686-4a21-bc00-668294395160" testId="c3f20557-d860-2dd9-1326-05b46560db5f" testName="getAllCarsTest" computerName="ITSM1030674" duration="00:00:00.0377400" startTime="2011-11-24T09:44:10.5334365-06:00" endTime="2011-11-24T09:44:10.5754407-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RuiKeZhong.clsDataTest.getAllCarsTest threw exception:  System.InvalidOperationException: Fill: SelectCommand.Connection property has not been initialized..</Message>
+          <StackTrace>    at System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at DataTier.clsData.getAllCars() in C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\clsData.vb:line 131
+   at DataTier.clsData_Accessor.getAllCars()
+   at RuiKeZhong.clsDataTest.getAllCarsTest() in C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\clsDataTest.vb:line 144
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5be9dab1-1ff1-4dee-91a1-8fcfc4526343" testId="7b5035e3-6d69-7df6-0a8d-91d3f6a850fb" testName="getOneCarTest" computerName="ITSM1030674" duration="00:00:00.0355907" startTime="2011-11-24T09:44:10.5814413-06:00" endTime="2011-11-24T09:44:10.6214453-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RuiKeZhong.clsDataTest.getOneCarTest threw exception:  System.InvalidOperationException: Fill: SelectCommand.Connection property has not been initialized..</Message>
+          <StackTrace>    at System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at DataTier.clsData.getOneCar(String strStockNo) in C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\clsData.vb:line 154
+   at DataTier.clsData_Accessor.getOneCar(String strStockNo)
+   at RuiKeZhong.clsDataTest.getOneCarTest() in C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\clsDataTest.vb:line 168
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f06f9d0-896e-413a-9e30-4994e866352f" testId="950cebad-c541-8a83-c710-f78c76cb02a1" testName="getCommissionTest" computerName="ITSM1030674" duration="00:00:00.0362733" startTime="2011-11-24T09:44:10.6274459-06:00" endTime="2011-11-24T09:44:10.6734505-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RuiKeZhong.clsDataTest.getCommissionTest threw exception:  System.InvalidOperationException: Fill: SelectCommand.Connection property has not been initialized..</Message>
+          <StackTrace>    at System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at DataTier.clsData.getCommission() in C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\clsData.vb:line 176
+   at DataTier.clsData_Accessor.getCommission()
+   at RuiKeZhong.clsDataTest.getCommissionTest() in C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\clsDataTest.vb:line 189
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="403f01db-6e71-4759-86f5-1787dc9fb55e" testId="961983b1-9ee3-6fbb-3ad2-ba49acea8809" testName="updateCommissionTest" computerName="ITSM1030674" duration="00:00:00.0327010" startTime="2011-11-24T09:44:10.6774509-06:00" endTime="2011-11-24T09:44:10.7154547-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RuiKeZhong.clsDataTest.updateCommissionTest threw exception:  System.InvalidOperationException: Fill: SelectCommand.Connection property has not been initialized..</Message>
+          <StackTrace>    at System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at DataTier.clsData.getCommission() in C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\clsData.vb:line 176
+   at DataTier.clsData_Accessor.getCommission()
+   at RuiKeZhong.clsDataTest.updateCommissionTest() in C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\clsDataTest.vb:line 216
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="99374b8a-c6f6-4096-b189-1cb4e8c52954" testId="237bda40-fa0b-3f6a-1f90-191e192a1943" testName="updateNewCarTest" computerName="ITSM1030674" duration="00:00:00.0201285" startTime="2011-11-24T09:44:10.7234555-06:00" endTime="2011-11-24T09:44:10.7464578-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RuiKeZhong.clsDataTest.updateNewCarTest threw exception:  System.InvalidOperationException: Fill: SelectCommand.Connection property has not been initialized..</Message>
+          <StackTrace>    at System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at DataTier.clsData.getAllCars() in C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\clsData.vb:line 131
+   at DataTier.clsData_Accessor.getAllCars()
+   at RuiKeZhong.clsDataTest.updateNewCarTest() in C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\clsDataTest.vb:line 248
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bd9a110f-e4da-4d89-9390-e4b7b5bac0a9" testId="f312c311-fd42-ece7-e845-ace20316a2ca" testName="updateOneCarTest" computerName="ITSM1030674" duration="00:00:00.0195960" startTime="2011-11-24T09:44:10.7514583-06:00" endTime="2011-11-24T09:44:10.7734605-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RuiKeZhong.clsDataTest.updateOneCarTest threw exception:  System.InvalidOperationException: Fill: SelectCommand.Connection property has not been initialized..</Message>
+          <StackTrace>    at System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at DataTier.clsData.getOneCar(String strStockNo) in C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\clsData.vb:line 154
+   at DataTier.clsData_Accessor.getOneCar(String strStockNo)
+   at RuiKeZhong.clsDataTest.updateOneCarTest() in C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\clsDataTest.vb:line 275
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2778e841-9b84-4641-b9a9-fa69e4ada85f" testId="bd2f16e9-c880-0847-a49f-4f7e109d08a7" testName="PartsTest" computerName="ITSM1030674" duration="00:00:00.0015196" startTime="2011-11-24T09:44:10.7814613-06:00" endTime="2011-11-24T09:44:10.7874619-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b6cfd3f-4ecc-41c6-81af-ca3d7945867a" testId="1dfdc90b-7b0a-c04a-902d-157c16702053" testName="PricesTest" computerName="ITSM1030674" duration="00:00:00.0005141" startTime="2011-11-24T09:44:10.7924624-06:00" endTime="2011-11-24T09:44:10.7964628-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b07e68a1-86f7-45ed-8602-8d8ef4d1513d" testId="99ff3c02-5c1c-c0d9-f523-81dd979ea186" testName="MaterialsTest" computerName="ITSM1030674" duration="00:00:00.0005124" startTime="2011-11-24T09:44:10.7994631-06:00" endTime="2011-11-24T09:44:10.8024634-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4384da8f-f7cf-40b7-99e3-7029059eae3c" testId="1be43b9d-0c70-576d-389c-292e846fa8ae" testName="clsServiceConstructorTest" computerName="ITSM1030674" duration="00:00:00.0004734" startTime="2011-11-24T09:44:10.8064638-06:00" endTime="2011-11-24T09:44:10.8094641-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6d83241e-e2c5-46ec-9de1-914db515897f" testId="81544419-160f-c490-48af-02645c813af4" testName="averageContractTest" computerName="ITSM1030674" duration="00:00:00.0153697" startTime="2011-11-24T09:44:10.8144646-06:00" endTime="2011-11-24T09:44:10.8324664-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;744&gt;. Actual:&lt;672.00&gt;. Error:calculation of average</Message>
+          <StackTrace>   at RuiKeZhong.clsServiceTest.averageContractTest() in C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\clsServiceTest.vb:line 112
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6ef928a4-f855-4898-befd-43ac73e72435" testId="0f0b88f1-ad5d-9fbe-e3e1-a28001387174" testName="calcAMountTest" computerName="ITSM1030674" duration="00:00:00.0016291" startTime="2011-11-24T09:44:10.8374669-06:00" endTime="2011-11-24T09:44:10.8444676-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ba56d0b2-6024-4d80-a877-a1a208fdd27c" testId="f4d016e0-a0db-b4bf-9a7f-a814aa3560e4" testName="CalculatedPSTTest" computerName="ITSM1030674" duration="00:00:00.0007271" startTime="2011-11-24T09:44:10.8504682-06:00" endTime="2011-11-24T09:44:10.8544686-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="586914ad-6e7b-4a42-bd3f-17b78787dee0" testId="82fcbd2b-41e4-f2ea-3380-81e7c264218f" testName="CalculatedGSTTest" computerName="ITSM1030674" duration="00:00:00.0006326" startTime="2011-11-24T09:44:10.8604692-06:00" endTime="2011-11-24T09:44:10.8644696-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7fb9d990-3cd6-4948-a915-498403f15f18" testId="4a50e694-61e1-1ae0-dd41-0351984043b6" testName="clsServiceConstructorTest1" computerName="ITSM1030674" duration="00:00:00.0004974" startTime="2011-11-24T09:44:10.8694701-06:00" endTime="2011-11-24T09:44:10.8764708-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4f573534-bd42-4ec8-a063-05f6a7d0f881" testId="c753e863-3a1c-251e-6373-af1e456874fe" testName="validateNumericTest" computerName="ITSM1030674" duration="00:00:00.1548844" startTime="2011-11-24T09:44:10.8974729-06:00" endTime="2011-11-24T09:44:11.0564888-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="133792ef-dd81-4461-962a-f2ccdca9cd09" testId="d6f04e93-50d1-11e7-ed0e-4b32857cf71b" testName="readFilesTest" computerName="ITSM1030674" duration="00:00:00.0218835" startTime="2011-11-24T09:44:11.0584890-06:00" endTime="2011-11-24T09:44:11.0844916-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9945ec47-89db-4ac1-8366-a8f5f6ad76df" testId="1d839eca-a7b2-c9a3-97ea-9766de28e797" testName="readFilesTest2" computerName="ITSM1030674" duration="00:00:00.0061177" startTime="2011-11-24T09:44:11.0884920-06:00" endTime="2011-11-24T09:44:11.0974929-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c4873196-3c32-44a8-beee-96c7bde5c123" testId="f27ebfa3-63fa-6cbb-ee78-dfb01f080dc1" testName="readFilesTest3" computerName="ITSM1030674" duration="00:00:00.0063739" startTime="2011-11-24T09:44:11.1004932-06:00" endTime="2011-11-24T09:44:11.1104942-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aa5d19a6-7660-4952-ae51-7b79f41f7f4c" testId="a3ba2455-6db9-d5ad-4b1a-d3631cf101a9" testName="readFilesTest1" computerName="ITSM1030674" duration="00:00:00.0060881" startTime="2011-11-24T09:44:11.1134945-06:00" endTime="2011-11-24T09:44:11.1224954-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="46447147-60f1-44f2-953d-1adac7d1313b" testId="8713296a-a4c7-f1f7-e8c6-967ba0060265" testName="readFilesTest4" computerName="ITSM1030674" duration="00:00:00.0076797" startTime="2011-11-24T09:44:11.1264958-06:00" endTime="2011-11-24T09:44:11.1384970-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a48eb41d-9bcc-40c6-a162-83c5a0cbfb0f" testId="de299746-f64b-2662-ab94-be40c31e0c4b" testName="readFilesTest5" computerName="ITSM1030674" duration="00:00:00.0060120" startTime="2011-11-24T09:44:11.1414973-06:00" endTime="2011-11-24T09:44:11.1504982-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="65fd0677-9b36-45b4-907d-bf83c19d0fc2" testId="9cac364e-870f-8fb8-c193-31c85489ef4a" testName="resetFragTest" computerName="ITSM1030674" duration="00:00:00.0200105" startTime="2011-11-24T09:44:11.1524984-06:00" endTime="2011-11-24T09:44:11.1755007-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;4&gt;. Error:Could not find Pine in Fragrance Combobox</Message>
+          <StackTrace>   at RuiKeZhong.frmCarWashTest.resetFragTest() in C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\frmCarWashTest.vb:line 167
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dad8460e-a69a-42ef-ab8e-ec773f403011" testId="dee52ec6-7bb3-3477-6d48-afbbad26fab1" testName="resetFragTest1" computerName="ITSM1030674" duration="00:00:00.0056292" startTime="2011-11-24T09:44:11.1835015-06:00" endTime="2011-11-24T09:44:11.1915023-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5a303ba7-9485-47ee-a745-ed021f1442c5" testId="11e5a7ba-2a82-bb87-b441-fc5937592388" testName="getFragIndexTest" computerName="ITSM1030674" duration="00:00:00.0068007" startTime="2011-11-24T09:44:11.1955027-06:00" endTime="2011-11-24T09:44:11.2055037-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="00466378-a317-400c-868d-1d3c4efd6193" testId="581aabed-d3f4-41e9-5a3f-79102315492a" testName="getFragIndexTest1" computerName="ITSM1030674" duration="00:00:00.0057862" startTime="2011-11-24T09:44:11.2095041-06:00" endTime="2011-11-24T09:44:11.2195051-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="82becd30-f9f1-416f-a52c-fb50220aec9f" testId="ed8cb08f-c6af-7bb7-0406-21450f0be211" testName="radStandard_CheckChangedTest" computerName="ITSM1030674" duration="00:00:00.0363978" startTime="2011-11-24T09:44:11.2225054-06:00" endTime="2011-11-24T09:44:11.2625094-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e098570c-4b81-477b-9f3d-fdb2a012452a" testId="cf09ca18-95f8-e8be-e036-bb14751e3db3" testName="radPearlized_CheckChangedTest" computerName="ITSM1030674" duration="00:00:00.0083474" startTime="2011-11-24T09:44:11.2685100-06:00" endTime="2011-11-24T09:44:11.2795111-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="80ec35de-ae32-4fc3-a5e0-f56bb0653f76" testId="65c95b68-bf0e-4c63-cd35-3ea2d14c73a1" testName="radCustomizedDetailing_CheckChangedTest" computerName="ITSM1030674" duration="00:00:00.0083050" startTime="2011-11-24T09:44:11.2845116-06:00" endTime="2011-11-24T09:44:11.2955127-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c7d22843-23ef-4b16-89d2-653ba5abf9d6" testId="be5b9674-3f7d-b7e3-c16a-087ebdb5cccb" testName="chkAll1_CheckedChangedTest" computerName="ITSM1030674" duration="00:00:00.0105933" startTime="2011-11-24T09:44:11.3025134-06:00" endTime="2011-11-24T09:44:11.3155147-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6de191c4-770c-4e41-9482-611ce84b6d95" testId="9f4bca4e-e332-6631-db4b-c15534c1e5fa" testName="chkAll2_CheckedChangedTest" computerName="ITSM1030674" duration="00:00:00.0078606" startTime="2011-11-24T09:44:11.3205152-06:00" endTime="2011-11-24T09:44:11.3305162-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b0b355f5-b98c-40d8-b94b-54fa4535bab5" testId="068b7cce-0087-6a06-c9de-330961f0d6c9" testName="chkAll3_CheckedChangedTest" computerName="ITSM1030674" duration="00:00:00.0140031" startTime="2011-11-24T09:44:11.3545186-06:00" endTime="2011-11-24T09:44:11.3915223-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ab3b2e47-5ab8-4c83-83dc-35e8e1d6649d" testId="6cc3610b-f206-5d62-96a8-c2a370b8812e" testName="chkAll4_CheckedChangedTest" computerName="ITSM1030674" duration="00:00:00.0175990" startTime="2011-11-24T09:44:11.4065238-06:00" endTime="2011-11-24T09:44:11.4325264-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9176b650-444f-44a2-b004-bee99ba1c08c" testId="94bd8884-25a5-3f10-21d5-c49d227cc7f7" testName="chkAll5_CheckedChangedTest" computerName="ITSM1030674" duration="00:00:00.0134668" startTime="2011-11-24T09:44:11.4445276-06:00" endTime="2011-11-24T09:44:11.4625294-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="decdb05e-4169-465f-9942-59bbdc2af2cd" testId="5ba48c3d-2b0c-66f7-5ed7-5c5364a4f7e1" testName="chkAll6_CheckedChangedTest" computerName="ITSM1030674" duration="00:00:00.0085809" startTime="2011-11-24T09:44:11.4705302-06:00" endTime="2011-11-24T09:44:11.4825314-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="299fc6a6-c2b0-4b1c-8fec-fe99608ec765" testId="da151202-8508-6e92-4e59-68261f0ab2b5" testName="chkAll7_CheckedChangedTest" computerName="ITSM1030674" duration="00:00:00.0094701" startTime="2011-11-24T09:44:11.4885320-06:00" endTime="2011-11-24T09:44:11.5015333-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="64c2395b-34e7-4006-bc8f-d0da38f3fbcb" testId="af10c53a-f53e-6f45-bac1-67184954a410" testName="ctxClear_ClickTest" computerName="ITSM1030674" duration="00:00:00.0169288" startTime="2011-11-24T09:44:11.5085340-06:00" endTime="2011-11-24T09:44:11.5305362-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f944b1ad-baae-45c7-a08d-2574034eb62a" testId="c61b5ef8-816f-b2ea-76ca-a4c7b7bb5717" testName="quoteTest" computerName="ITSM1030674" duration="00:00:00.0119958" startTime="2011-11-24T09:44:11.5365368-06:00" endTime="2011-11-24T09:44:11.5705402-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="38727e4e-838e-4145-b7c9-07445e745d2f" testId="5aa18ada-74b4-3acb-c9c7-a3d98efe76be" testName="quoteTest2" computerName="ITSM1030674" duration="00:00:00.0067314" startTime="2011-11-24T09:44:11.5755407-06:00" endTime="2011-11-24T09:44:11.5865418-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="58bc08e8-4854-4ae3-8e0d-e9dea61cb42e" testId="5e835c18-3baa-ac01-c482-cdff006f007c" testName="clearTest" computerName="ITSM1030674" duration="00:00:00.0096331" startTime="2011-11-24T09:44:11.5955427-06:00" endTime="2011-11-24T09:44:11.6085440-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c1232fd0-9ac5-4c08-a847-d183c765d87c" testId="4190b940-5e71-a45d-a273-6637047d685e" testName="clearTest2" computerName="ITSM1030674" duration="00:00:00.0068414" startTime="2011-11-24T09:44:11.6125444-06:00" endTime="2011-11-24T09:44:11.6225454-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ae49f5bf-4c6e-460e-9910-18ef5f10ab6c" testId="b130a796-a9ad-c5d3-a208-e46f23df58ed" testName="calculateTest" computerName="ITSM1030674" duration="00:00:00.0117324" startTime="2011-11-24T09:44:11.6275459-06:00" endTime="2011-11-24T09:44:11.6425474-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="660b0917-47ae-490b-8644-d9653eb222fe" testId="e085a9d6-f5f4-a6a2-9baf-636d59fb690a" testName="calculateTest2" computerName="ITSM1030674" duration="00:00:00.0144972" startTime="2011-11-24T09:44:11.6665498-06:00" endTime="2011-11-24T09:44:11.7065538-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="efeda2a5-1b5a-4077-97fe-b7e2ff9157f1" testId="a1469517-8b0f-a4e6-c599-61ee6e4b9ef4" testName="calculateTest3" computerName="ITSM1030674" duration="00:00:00.0130254" startTime="2011-11-24T09:44:11.7155547-06:00" endTime="2011-11-24T09:44:11.7575589-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="80774fab-a1e1-4e06-856f-5f54e5a3cbcb" testId="19fb3805-1055-bdd3-fe2f-0a340efefa9c" testName="calculateTest4" computerName="ITSM1030674" duration="00:00:00.0122811" startTime="2011-11-24T09:44:11.7655597-06:00" endTime="2011-11-24T09:44:11.7835615-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e3cec8a8-f9fa-4b51-87bf-802866fe3e1b" testId="da4998a6-2996-5385-0265-51dd6a3aa8fd" testName="calculateTest5" computerName="ITSM1030674" duration="00:00:00.0127157" startTime="2011-11-24T09:44:11.7915623-06:00" endTime="2011-11-24T09:44:11.8095641-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4b0c6d44-4b74-48f4-90c9-848546d77209" testId="3e99709b-51f1-1b70-031d-77d30eff8b76" testName="calculateTest6" computerName="ITSM1030674" duration="00:00:00.0122580" startTime="2011-11-24T09:44:11.8175649-06:00" endTime="2011-11-24T09:44:11.8345666-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cbd1dc54-a7f6-436a-a3a6-fec5be48d5c2" testId="135c9bd2-bbe6-d141-c666-348532b334ff" testName="enableFinanceTest" computerName="ITSM1030674" duration="00:00:00.0145797" startTime="2011-11-24T09:44:11.8435675-06:00" endTime="2011-11-24T09:44:11.8625694-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="30a1064e-89c5-4c20-a4ba-a8e5bc0b9d17" testId="4c9e8bdd-5863-4599-9563-d87848e8ba63" testName="enableFinanceTest1" computerName="ITSM1030674" duration="00:00:00.0157730" startTime="2011-11-24T09:44:11.8725704-06:00" endTime="2011-11-24T09:44:11.8925724-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea0ae0f6-5ec4-4bf3-b873-4e649910689e" testId="867cf857-2d2c-385b-4091-bb0b3018f2f3" testName="ctxClear_ClickTest" computerName="ITSM1030674" duration="00:00:00.0242505" startTime="2011-11-24T09:44:11.9005732-06:00" endTime="2011-11-24T09:44:11.9285760-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5bcbc714-97e4-4950-ad10-5db076ab20f8" testId="380c438f-e1ee-4aa4-db68-69dba114b2e9" testName="txtBoxes_LeaveTest" computerName="ITSM1030674" duration="00:00:00.0101425" startTime="2011-11-24T09:44:11.9345766-06:00" endTime="2011-11-24T09:44:11.9485780-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f5ce0a72-aca5-4f37-ac2a-258ccdfd3ab1" testId="b159430b-1382-19e1-f9fb-29be75554220" testName="txtBoxes_LeaveTest1" computerName="ITSM1030674" duration="00:00:00.0063127" startTime="2011-11-24T09:44:11.9575789-06:00" endTime="2011-11-24T09:44:11.9685800-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f98ea55-4e94-4e70-a839-5efe5d280a1f" testId="eda01f2f-f0ec-2cd5-23ec-104379082086" testName="frmSummary_LoadTest" computerName="ITSM1030674" duration="00:00:00.0307908" startTime="2011-11-24T09:44:11.9755807-06:00" endTime="2011-11-24T09:44:12.0105842-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;$1,243.202$77.70$55.50$621.60&gt;. Actual:&lt;$3,963.336$277.43$198.17$739.82&gt;. </Message>
+          <StackTrace>   at RuiKeZhong.frmSummaryTest.frmSummary_LoadTest() in C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\frmSummaryTest.vb:line 91
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2763f486-76c3-4b93-bc6c-bbfa11ec8f4b" testId="5bcd68bf-d6e8-995f-c6a4-ad5d0273ca79" testName="refreshDataTest" computerName="ITSM1030674" duration="00:00:00.0624824" startTime="2011-11-24T09:44:12.0205852-06:00" endTime="2011-11-24T09:44:12.0865918-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RuiKeZhong.frmVBAutoTest.refreshDataTest threw exception:  System.InvalidOperationException: Fill: SelectCommand.Connection property has not been initialized..</Message>
+          <StackTrace>    at System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at DataTier.clsData.getAllCars() in C:\Users\rzhong\Desktop\NETRuikeZhong\DataTier\clsData.vb:line 131
+   at NETRuikeZhong.frmVBAuto.refreshData(String stockNo) in C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\NETRuikeZhong\frmVBAuto.vb:line 20
+   at NETRuikeZhong.frmVBAuto_Accessor.refreshData(String stockNo)
+   at RuiKeZhong.frmVBAutoTest.refreshDataTest() in C:\Users\rzhong\Desktop\ADEV-1002\NETRuikeZhong\RuiKeZhong\frmVBAutoTest.vb:line 97
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

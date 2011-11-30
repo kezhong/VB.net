@@ -83,25 +83,25 @@ Partial Class frmFrame
         'EstimateToolStripMenuItem
         '
         Me.EstimateToolStripMenuItem.Name = "EstimateToolStripMenuItem"
-        Me.EstimateToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EstimateToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.EstimateToolStripMenuItem.Text = "&Estimate"
         '
         'ServiceToolStripMenuItem
         '
         Me.ServiceToolStripMenuItem.Name = "ServiceToolStripMenuItem"
-        Me.ServiceToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ServiceToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.ServiceToolStripMenuItem.Text = "&Service"
         '
         'CarWashToolStripMenuItem
         '
         Me.CarWashToolStripMenuItem.Name = "CarWashToolStripMenuItem"
-        Me.CarWashToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CarWashToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.CarWashToolStripMenuItem.Text = "&Car Wash"
         '
         'CommissionToolStripMenuItem
         '
         Me.CommissionToolStripMenuItem.Name = "CommissionToolStripMenuItem"
-        Me.CommissionToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CommissionToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.CommissionToolStripMenuItem.Text = "Co&mmission"
         '
         'ReportsToolStripMenuItem
@@ -177,35 +177,35 @@ Partial Class frmFrame
         '
         Me.EstimateToolStripMenuItem1.Image = CType(resources.GetObject("EstimateToolStripMenuItem1.Image"), System.Drawing.Image)
         Me.EstimateToolStripMenuItem1.Name = "EstimateToolStripMenuItem1"
-        Me.EstimateToolStripMenuItem1.Size = New System.Drawing.Size(141, 22)
+        Me.EstimateToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
         Me.EstimateToolStripMenuItem1.Text = "Estimate"
         '
         'ServiceToolStripMenuItem1
         '
         Me.ServiceToolStripMenuItem1.Image = CType(resources.GetObject("ServiceToolStripMenuItem1.Image"), System.Drawing.Image)
         Me.ServiceToolStripMenuItem1.Name = "ServiceToolStripMenuItem1"
-        Me.ServiceToolStripMenuItem1.Size = New System.Drawing.Size(141, 22)
+        Me.ServiceToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
         Me.ServiceToolStripMenuItem1.Text = "Service"
         '
         'CarWashToolStripMenuItem1
         '
         Me.CarWashToolStripMenuItem1.Image = CType(resources.GetObject("CarWashToolStripMenuItem1.Image"), System.Drawing.Image)
         Me.CarWashToolStripMenuItem1.Name = "CarWashToolStripMenuItem1"
-        Me.CarWashToolStripMenuItem1.Size = New System.Drawing.Size(141, 22)
+        Me.CarWashToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
         Me.CarWashToolStripMenuItem1.Text = "Car Wash"
         '
         'CommissionToolStripMenuItem1
         '
         Me.CommissionToolStripMenuItem1.Image = CType(resources.GetObject("CommissionToolStripMenuItem1.Image"), System.Drawing.Image)
         Me.CommissionToolStripMenuItem1.Name = "CommissionToolStripMenuItem1"
-        Me.CommissionToolStripMenuItem1.Size = New System.Drawing.Size(141, 22)
+        Me.CommissionToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
         Me.CommissionToolStripMenuItem1.Text = "Commission"
         '
         'ReportsToolStripMenuItem1
         '
         Me.ReportsToolStripMenuItem1.Image = CType(resources.GetObject("ReportsToolStripMenuItem1.Image"), System.Drawing.Image)
         Me.ReportsToolStripMenuItem1.Name = "ReportsToolStripMenuItem1"
-        Me.ReportsToolStripMenuItem1.Size = New System.Drawing.Size(141, 22)
+        Me.ReportsToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
         Me.ReportsToolStripMenuItem1.Text = "Reports"
         '
         'ToolStripSeparator1

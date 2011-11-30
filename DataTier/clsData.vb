@@ -213,11 +213,13 @@ Public Class clsData
                                ByVal color As String, _
                                ByVal cost As Decimal, _
                                ByVal retailPrice As Decimal)
-
+        'Create a datarow object which will represent the new row in the UsedCars
+        'table and associate this datarow object with the module level DataSet representing 
+        'the UsedCars table
         mdaAllUsedcars.SelectCommand = New OleDbCommand
         mdaAllUsedcars.SelectCommand.Connection = mconAutoSales
 
-
+        'Query
         mdaAllUsedcars.SelectCommand.CommandText = _
         "SELECT * FROM UsedCars"
         mdaAllUsedcars.Fill(mdsAllUsedCars, "UsedCars")

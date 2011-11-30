@@ -22,6 +22,10 @@ Public Class frmVBAuto
     End Sub
     'This subprocedure will bind the various controls to module
     'level DataSet containing the corresponding data
+    ''' <summary>
+    ''' 
+    ''' </summary>
+    ''' <remarks></remarks>
     Private Sub bindData()
         Try
             lblID.DataBindings.Add("Text", mdsAllSalesStaff.Tables("SalesStaff"), "SalesID")
@@ -43,6 +47,7 @@ Public Class frmVBAuto
 
     Private Sub frmVBAuto_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Try
+            'connect to database
             objClsData.connect()
             mdsAllSalesStaff = objClsData.getSalesStaff()
             mdsAllUsedCars = objClsData.getAllCars()
@@ -111,11 +116,14 @@ Public Class frmVBAuto
 
     Private Sub cmbStock_Leave(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbStock.Leave
         Dim result As Boolean
+        'Use the Base Class' validateNumeric function to sensure that the data entered into the ComboBox is numeric 
         result = validateNumeric(Trim(cmbStock.Text))
-
+        'determine whether or not the data entered is a duplicate key
         If result Then
             mdsSingleUsedCar = objClsData.getOneCar(cmbStock.Text)
             If mdsSingleUsedCar.Tables("UsedCars").Rows.Count > 0 Then
+                'Call the refereshData method to displau the record corresponding 
+                'to the StockNo that the users has entered
                 refreshData(cmbStock.Text)
             Else
                 If cmbStock.Text.Length <= 7 Then
@@ -149,8 +157,4 @@ Public Class frmVBAuto
         End If
     End Sub
 
-
-    Private Sub cmbStock_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbStock.SelectedIndexChanged
-        lblCommission.Text = ""
-    End Sub
 End Class
